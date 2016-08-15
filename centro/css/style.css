@@ -538,7 +538,9 @@ header.home{
 	padding: 80px 0 120px 0;
 }
 .navbar-fixed-top{
-	display:none;
+	background-image: url(../img/TemplateImg/navbar.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .dropdown-menu li{
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1230,9 +1232,11 @@ div.menu-icon:not(:hover) {
     float: left;
     width: auto;
 }
+/*
 .navbar-header .navbar .navbar-default .navbar-fixed-top .navbar-shrink {
     background-image: url(../img/TemplateImg/navbar.svg)
 }
+*/
 .top-logo {
     float: left;
     padding: 3px 0;
