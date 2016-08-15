@@ -1228,7 +1228,9 @@ div.menu-icon:not(:hover) {
 }
 .navbar-header{
     background-color: white;
-    background-image: url(../img/TemplateImg/navbar.svg);
+}
+.navbar-header {
+    background-image: url(../img/TemplateImg/navbar.svg)
 }
 .top-logo {
     float: left;
@@ -1260,7 +1262,7 @@ div.menu-icon:not(:hover) {
 	}
 }
 .navbar-default {
-	background-color: #1e2a36;
+	background-color: #fff;
 	border-color: transparent;
 }
 
