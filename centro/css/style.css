@@ -177,18 +177,21 @@ header .menu-icon i:hover{
 }
 
 
+/*
 .navbar .navbar-default .navbar-fixed-top .navbar-shrink {
-    color: white !important;
-    background-color: white !important;
+
+    
 }
+*/
 
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+        background-position: left;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -196,6 +199,13 @@ header .menu-icon i:hover{
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        padding-bottom: 100px;
+
+    }
+    
+    .navbar-fixed-top {
+        padding-bottom: 100px;
+        margin-bottom: -200px;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -537,12 +547,18 @@ header.home{
 	min-width: 100%;
 	padding: 80px 0 120px 0;
 }
+
+.nav .navbar-nav .navbar-right {
+    float: right;
+}
 .navbar-fixed-top{
 	background-image: url(../img/TemplateImg/navbar.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 40px;
-    min-width: 700px;
+    padding-bottom: 25px;
+    margin-bottom: -25px;
+    background-position: left;
+    overflow: visible;
 
 }
 .dropdown-menu li{
