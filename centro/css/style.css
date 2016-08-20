@@ -551,14 +551,27 @@ header.home{
 .nav .navbar-nav .navbar-right {
     float: right;
 }
+
+.navbarwhite {
+    background-color: white;
+    height: 50px;
+    background-attachment: scroll;
+}
+.navbarpic
 .navbar-fixed-top{
-	background-image: url(../img/TemplateImg/navbar.svg);
+    background-image: url(../img/TemplateImg/navbar.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 25px;
-    margin-bottom: -25px;
-    background-position: left;
     overflow: visible;
+    padding-bottom: 27px;
+    margin-bottom: -27px;
+    background-position: right;
+    background-color: transparent;
+    background-clip: padding-box;
+    background-origin: content-box;
+}
+
+.navbarpic .navbar-fixed-top{
+
 
 }
 .dropdown-menu li{
