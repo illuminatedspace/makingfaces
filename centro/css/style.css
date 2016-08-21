@@ -100,12 +100,11 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: ;
     /*background: #1eb3d9;*/
 }
 
 header .container {
-    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -115,13 +114,34 @@ header img {
 }
 .intro-text {
     float: left;
+    font-family: 'Bariol', serif;
+    text-align: left;
+    line-height: 2em;
+    margin: 20px;
 }
-header .intro-text .name {
+.blue-intro {
+    color: #03a8ce;
+    font-size: 2em;
+    font-weight: bold;
+}
+.green-intro {
+    color: lawngreen;
+    padding: 20px 0 5px;
+    font-size: 1.75em;
+}
+.apple-store-button{
+    
+}
+.intro-screenshot {
+    float: right;
+    background-color: black;
+}
+header .name {
     text-transform: none;
     'Titillium Web',"Helvetica Neue", sans-serif;
     font-weight: 300;
 	font-size:1.348em;
-	line-heigh:1.249em;
+	line-height:1.249em;
 	margin-top:30px;
 }
 header .intro-text {
@@ -159,7 +179,8 @@ header .menu-icon i:hover{
 
 @media(min-width:768px) {
     header .container {
-        padding: 180px 0 100px;
+        padding: 25px 100px;
+        background-color: white;
     }
 
     header .intro-text .name {
@@ -192,6 +213,7 @@ header .menu-icon i:hover{
         -moz-transition: padding .3s;
         transition: padding .3s;
         background-position: left;
+        max-height: 90px;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -199,13 +221,13 @@ header .menu-icon i:hover{
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
 
     }
     
     .navbar-fixed-top {
-        padding-bottom: 100px;
-        margin-bottom: -200px;
+        padding-bottom:;
+        margin-bottom: ;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -546,6 +568,7 @@ header.home{
 	max-width:100%;
 	min-width: 100%;
 	padding: 80px 0 120px 0;
+    background-color: white;
 }
 
 .nav .navbar-nav .navbar-right {
@@ -562,7 +585,7 @@ header.home{
     background-image: url(../img/TemplateImg/navbar.svg);
     background-repeat: no-repeat;
     overflow: visible;
-    padding-bottom: 27px;
+    padding-bottom: 30px;
     margin-bottom: -27px;
     background-position: right;
     background-color: transparent;
@@ -572,8 +595,12 @@ header.home{
 
 .navbarpic .navbar-fixed-top{
 
-
 }
+
+.home-wrap {
+    
+}
+
 .dropdown-menu li{
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700;
