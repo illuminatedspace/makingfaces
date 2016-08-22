@@ -100,12 +100,16 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: ;
+    background-color: white;
     /*background: #1eb3d9;*/
 }
 
 header .container {
     padding-bottom: 50px;
+    align-content: center;
+    max-width: 1000px;
+    align-content: space-around;
+    vertical-align: middle;
 }
 
 header img {
@@ -117,7 +121,8 @@ header img {
     font-family: 'Bariol', serif;
     text-align: left;
     line-height: 2em;
-    margin: 20px;
+    margin: 40px 0 0 0;
+    width: auto;
 }
 .blue-intro {
     color: #03a8ce;
@@ -126,15 +131,25 @@ header img {
 }
 .green-intro {
     color: lawngreen;
-    padding: 20px 0 5px;
+    padding: 20px 0 10px;
     font-size: 1.75em;
 }
-.apple-store-button{
-    
+.apple-store-button img{
+    height: 6em;
+    float: left;
 }
 .intro-screenshot {
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: auto;
+}
+.intro-screenshot img {
     float: right;
-    background-color: black;
+    width: auto;
+    padding: auto;
+    margin: 40px 0;
 }
 header .name {
     text-transform: none;
@@ -146,8 +161,7 @@ header .name {
 }
 header .intro-text {
 	height: 100%;
-	
-
+    max-width: 40p;
 }
 header .intro-text .skills {
     font-size: 1.25em;
@@ -179,8 +193,18 @@ header .menu-icon i:hover{
 
 @media(min-width:768px) {
     header .container {
-        padding: 25px 100px;
+        padding: 25px 100px 0 100px;
         background-color: white;
+    }
+    .blue-intro {
+        color: #03a8ce;
+        font-size: 2em;
+        font-weight: bold;
+}
+    .green-intro {
+        color: lawngreen;
+        padding: 20px 0 10px;
+        font-size: 1.75em;
     }
 
     header .intro-text .name {
@@ -569,6 +593,7 @@ header.home{
 	min-width: 100%;
 	padding: 80px 0 120px 0;
     background-color: white;
+    align-content: center;
 }
 
 .nav .navbar-nav .navbar-right {

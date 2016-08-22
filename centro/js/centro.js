@@ -638,7 +638,7 @@ $( window ).resize(function() {
 
 
   // Let there be light!
-  initialise();
+//  initialise();
 
 	  
 	  
