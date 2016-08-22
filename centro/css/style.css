@@ -132,6 +132,10 @@ header img {
     letter-spacing: .1em;
 }
 
+.feature-header {
+    margin: 0 0 40px 0;
+}
+
 header .name {
     text-transform: none;
     'Titillium Web',"Helvetica Neue", sans-serif;
