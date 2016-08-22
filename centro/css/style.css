@@ -31,7 +31,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
 	font-family: 'Titillium Web',"Helvetica Neue", sans-serif;
 	line-height: 1.11;
    
@@ -117,40 +116,22 @@ header img {
     margin: 0 auto 20px;
 }
 .intro-text {
-    float: left;
     font-family: 'Bariol', serif;
-    text-align: left;
-    line-height: 2em;
-    margin: 40px 0 0 0;
-    width: auto;
+    font-weight: bold;
+
 }
 .blue-intro {
     color: #03a8ce;
-    font-size: 2em;
+    line-height: 1.2em;
     font-weight: bold;
+
 }
 .green-intro {
     color: lawngreen;
-    padding: 20px 0 10px;
-    font-size: 1.75em;
+    line-height: 1em;
+    letter-spacing: .1em;
 }
-.apple-store-button img{
-    height: 6em;
-    float: left;
-}
-.intro-screenshot {
-    vertical-align: middle;
-    width: auto;
-    height: auto;
-    padding: auto;
-    margin: auto;
-}
-.intro-screenshot img {
-    float: right;
-    width: auto;
-    padding: auto;
-    margin: 40px 0;
-}
+
 header .name {
     text-transform: none;
     'Titillium Web',"Helvetica Neue", sans-serif;
@@ -191,7 +172,7 @@ header .menu-icon i:hover{
 	padding:10px;
 	}
 
-@media(min-width:768px) {
+@media(min-width:976px) {
     header .container {
         padding: 25px 100px 0 100px;
         background-color: white;
@@ -200,11 +181,19 @@ header .menu-icon i:hover{
         color: #03a8ce;
         font-size: 2em;
         font-weight: bold;
+        float: left;
+        text-align: left;
 }
     .green-intro {
         color: lawngreen;
-        padding: 20px 0 10px;
+        padding: 20px 0 5px;
         font-size: 1.75em;
+        float: left;
+        text-align: left;
+    }
+    .apple-store-button img{
+    height: 6em;
+    float: left;
     }
 
     header .intro-text .name {
@@ -219,6 +208,25 @@ header .menu-icon i:hover{
 		
     }
 	
+}
+
+@media(max-width:975px) {
+    .blue-intro {
+        color: #03a8ce;
+        font-size: 2em;
+        text-align: center;
+        clear: both;
+}
+    .green-intro {
+        color: lawngreen;
+        padding: 20px 0 5px;
+        font-size: 1.75em;
+        clear: both;
+    }
+    .apple-store-button img{
+    height: 6em;
+    clear: both;
+    }
 }
 
 
@@ -291,7 +299,7 @@ header .menu-icon i:hover{
 }
 
 section {
-    padding: 100px 0;
+    padding: 10px 0;
 	background-color: #f2f2f2;
 }
 
@@ -300,6 +308,7 @@ section h2 {
     font-size: 2.5em;
 }
 
+
 section.success {
     color: #fff;
     background: #1eb3d9;
@@ -307,7 +316,8 @@ section.success {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 20px 0;
+        margin: 50px 0;
     }
 
     section.first {
@@ -394,6 +404,11 @@ section.success {
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0px;
+    }
+    section .col-lg-12{
+        font-family: 'bariol';
+        font-size: 1.75em;
+        font-weight: bold;
     }
 }
 
@@ -1070,14 +1085,16 @@ div#loading {
     cursor: wait;                
     }
 .main_heading{
-	text-transform: uppercase;
 	font-weight: 300;
 	margin: 0;
 	padding: 5px 10px;
-	border-bottom: 3px solid;
 	display: inline-block;
 	position: relative;
-	border-radius: 20%;
+    font-family: bariol;
+    font-weight: bold;
+}
+.main_heading h2 {
+    border-color: transparent;
 }
 .main_heading:after {
 	content: '';
