@@ -326,7 +326,29 @@ header .menu-icon i:hover{
     #about{
         background-color: white;
     }
-}
+    .about-text-right, .about-text-left{
+        font-family: "bariol";
+        font-size: 2em;
+        color: #03a8ce;
+    }
+    .about-text-right{
+        float: right;
+    }
+    .about-text-left{
+        float: left;
+    }
+    .about-image {
+        
+    }
+    .about-image-left img, .about-image-right img{
+        width: 100%;
+    }
+    .about-image-left img{
+        float: left;
+    }
+    .about-image-right img{
+        float: right;
+    }
 
 @media(max-width:975px) {
     .blue-intro {
