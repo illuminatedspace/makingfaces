@@ -326,27 +326,32 @@ header .menu-icon i:hover{
     #about{
         background-color: white;
     }
+    .about-section{
+        clear: both;
+        width: 100%;
+        margin-bottom: 20px;
+    }
     .about-text-right, .about-text-left{
         font-family: "bariol";
         font-size: 2em;
         color: #03a8ce;
     }
-    .about-text-right{
+    .about-text-right: .col-md-6{
         float: right;
     }
-    .about-text-left{
+    .about-text-left: .col-md-6{
         float: left;
     }
     .about-image {
         
     }
     .about-image-left img, .about-image-right img{
-        width: 100%;
+        width: 70%;
     }
-    .about-image-left img{
+    .about-image-left: .col-md-6 img{
         float: left;
     }
-    .about-image-right img{
+    .about-image-right: .col-md-6 img{
         float: right;
     }
 
