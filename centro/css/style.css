@@ -215,10 +215,27 @@ header .menu-icon i:hover{
         max-width: 100%;
     }
     
-    .feature-description {
+    .feature-description-left, .feature-description-right{
         font-family: 'bariol';
-        font-weight: bold;
         font-size: 3em;
+    }
+    .feature-description-right {
+        float: right;
+    }
+    .feature-description-left{
+        float: left;
+    }
+    .feature-title-left h4, .feature-title-right h4{
+        font-family: 'bariol';
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+    .feature-title-left h4{
+        float: left;
+    }
+    .feature-title-right h4{
+        float: right;
     }
 	
     .header-image{
