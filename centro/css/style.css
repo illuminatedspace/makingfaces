@@ -104,7 +104,7 @@ header {
 }
 
 header .container {
-    padding-bottom: 50px;
+    padding-bottom: 45px;
     align-content: center;
     max-width: 1000px;
     align-content: space-around;
@@ -234,8 +234,40 @@ header .menu-icon i:hover{
         font-size: 5em;
         margin-left: 40px;
     }
+    .main_heading{
+        
+    }
     .feature-header{
         font-size: 1.5em;
+    }
+    .how-it-works-header{
+        margin: 2em 0 1em 0;
+        padding: 100px 0 0 0;
+        font-size: 2em;
+        text-align: center;
+        background-image: url(../img/TemplateImg/cloud-white-top.svg);
+        background-origin: padding-box;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:cover;
+        background-clip: padding-box;
+    }
+    div .how-it-works-header span{
+       position: absolute;
+        bottom: 0;
+    }
+/*
+        bo
+        rder-image-source: url(../img/TemplateImg/cloud-white-top.svg);
+        border-image-outset: 20 0 0 0;
+        border-collapse: separate;
+        border-image-slice: 100%;
+        border-image-width: 100%;
+        border-style: solid;
+        border-image-repeat: stretch;
+*/
+        
+        margin: 50px 0 0 0
     }
 }
 
