@@ -136,6 +136,11 @@ header img {
     margin: 0 0 40px 0;
 }
 
+.feature {
+    padding: 4em;
+    clear: both;
+}
+
 header .name {
     text-transform: none;
     'Titillium Web',"Helvetica Neue", sans-serif;
@@ -181,6 +186,9 @@ header .menu-icon i:hover{
         padding: 25px 100px 0 100px;
         background-color: white;
     }
+    #faq{
+        background-color: #ee8d52;
+    }
     .blue-intro {
         color: #03a8ce;
         font-size: 2em;
@@ -217,13 +225,15 @@ header .menu-icon i:hover{
     
     .feature-description-left, .feature-description-right{
         font-family: 'bariol';
-        font-size: 3em;
+        font-size: 2.25em;
     }
     .feature-description-right {
         float: right;
+        text-align: right;
     }
     .feature-description-left{
         float: left;
+        text-align: left;
     }
     .feature-title-left h4, .feature-title-right h4{
         font-family: 'bariol';
@@ -233,19 +243,28 @@ header .menu-icon i:hover{
     }
     .feature-title-left h4{
         float: left;
+        text-align: left;
     }
     .feature-title-right h4{
         float: right;
+        text-align: right;
     }
 	
     .header-image{
-        background-image: url(../img/TemplateImg/blue-features-header-05.svg);
         background-repeat: no-repeat;
         background-size: contain;
         padding-bottom: 20px;
         height: 160px;
         width: 100%;
-
+    }
+        #features .header-image{
+            background-image: url(../img/TemplateImg/blue-features-header-05.svg);
+    }
+        #faq .header-image{
+            background-image: url(../img/TemplateImg/orange-faq-header.svg);
+    }
+    #about .header-image {
+        background-image: url(../img/TemplateImg/green-about-header.svg);
     }
     .header-image h2{
         font-size: 5em;
@@ -282,9 +301,30 @@ header .menu-icon i:hover{
         border-image-width: 100%;
         border-style: solid;
         border-image-repeat: stretch;
-*/
-        
         margin: 50px 0 0 0
+*/
+    .faq-question{
+        font-style: italic;
+        font-weight: lighter;
+    }
+    .faq-answer{
+        font-weight: normal;
+        margin-bottom: 2em;
+    }
+    .faq-footer{
+        font-weight: bold;
+        font-size: 1.5em;
+        clear: both;
+        display: block;
+        background-image: url(../img/TemplateImg/orange-faq-footer-cloud.svg);
+        background-origin: border-box;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px 100px 20px 100px;
+    }
+    #about{
+        background-color: white;
     }
 }
 
@@ -305,7 +345,9 @@ header .menu-icon i:hover{
     height: 6em;
     clear: both;
     }
+
 }
+
 
 
 /*
