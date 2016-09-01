@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+
 }
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
@@ -257,21 +258,25 @@ header .menu-icon i:hover{
         height: 160px;
         width: 100%;
     }
-        #features .header-image{
-            background-image: url(../img/TemplateImg/blue-features-header-05.svg);
+    #features .header-image{
+        background-image: url(../img/TemplateImg/blue-features-header-05.svg);
     }
-        #faq .header-image{
-            background-image: url(../img/TemplateImg/orange-faq-header.svg);
+    #faq .header-image{
+        background-image: url(../img/TemplateImg/orange-faq-header.svg);
     }
     #about .header-image {
         background-image: url(../img/TemplateImg/green-about-header.svg);
     }
+    #contact .header-image {
+        background-image: url(../img/TemplateImg/green-about-header.svg);
+    }
+    #about .main_heading h2{
+        font-size: 2em;
+        text-align: left;
+    }
     .header-image h2{
         font-size: 5em;
         margin-left: 40px;
-    }
-    .main_heading{
-        
     }
     .feature-header{
         font-size: 1.5em;
@@ -631,6 +636,20 @@ section.success {
 
 footer {
     color: #fff;
+}
+.footer-header-cloud{
+    background-image: url(../img/TemplateImg/blue-footer.svg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: contain;
+    background-position: top;
+    padding: 69px;
+    width: 100%;
+    background-color: #ee8d52;
+}
+.footer-header{
+    background-color: #03a8ce;
+    height: auto;
 }
 
 footer h3 {
