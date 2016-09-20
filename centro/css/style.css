@@ -268,7 +268,7 @@ header .menu-icon i:hover{
         background-image: url(../img/TemplateImg/green-about-header.svg);
     }
     #contact .header-image {
-        background-image: url(../img/TemplateImg/green-about-header.svg);
+        background-image: url(../img/TemplateImg/orange-contact-header.svg);
     }
     #about .main_heading h2{
         font-size: 2em;
@@ -360,7 +360,7 @@ header .menu-icon i:hover{
         float: right;
     }
 
-@media(max-width:975px) {
+@media(max-width:768px) {
     .blue-intro {
         color: #03a8ce;
         font-size: 2em;
@@ -398,6 +398,7 @@ header .menu-icon i:hover{
         transition: padding .3s;
         background-position: left;
         max-height: 90px;
+        background-color: white;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -416,10 +417,17 @@ header .menu-icon i:hover{
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
+        background-color: white;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+    .nav-background {
+        margin: 0px;
+        background-color: white;
+        height: 25px;
+        overflow: visible;
     }
 }
 
@@ -634,22 +642,45 @@ section.success {
     color: #fff;
 }
 
-footer {
-    color: #fff;
-}
 .footer-header-cloud{
     background-image: url(../img/TemplateImg/blue-footer.svg);
     background-repeat: no-repeat;
     background-origin: padding-box;
-    background-size: contain;
+    background-size: cover;
     background-position: top;
-    padding: 69px;
+    overflow: hidden;
+    padding-top: 130px;
     width: 100%;
     background-color: #ee8d52;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
-.footer-header{
-    background-color: #03a8ce;
+
+footer {
+    color: white;
+    height: 300px;
+    overflow: hidden;
+}
+    
+footer a {
+    color: white;
+}
+    
+footer a:hover {
+    color: #f26726;
+    font-weight: bold;
+}
+
+footer .col-md-1 {
     height: auto;
+    margin-left: 100px;
+}
+.footer-title{
+    font-weight: bold;
+}
+.footer-content {
+    background-color: #1dc0e5;
+    height: inherit;
 }
 
 footer h3 {
@@ -789,19 +820,17 @@ header.home{
 .navbarpic
 .navbar-fixed-top{
     background-image: url(../img/TemplateImg/navbar.svg);
+    background-size: auto;
     background-repeat: no-repeat;
     overflow: visible;
     padding-bottom: 30px;
     margin-bottom: -27px;
     background-position: right;
-    background-color: transparent;
+    background-color: white;
     background-clip: padding-box;
     background-origin: content-box;
 }
-
-.navbarpic .navbar-fixed-top{
-
-}
+    
 
 .home-wrap {
     
@@ -955,10 +984,10 @@ border-top: 22px solid #3fbfE1;
 	
 }
 .contact{
-	background-image:url("../img/TemplateImg/bg37.png");
 	color:#fff;
+    background-color: #ee8d52;
 	
-}
+}O
 .contact hr.star-light{ border-color:#fff !important; }
 @media (min-width: 992px){
 	.left-services .service-item .fa-stack{
