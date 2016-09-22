@@ -56,7 +56,7 @@ $( document ).ready(function() {
 	
 	
 	//home section image size to window size.
-	var height = $(window).height();
+//	var height = $(window).height();
 //    $(".home").css("height",height);
 //	$(".home_wrap").css("height",height);
 	$(".home").css("max-width","100%");
@@ -238,12 +238,12 @@ $( document ).ready(function() {
 
 	
 });
-$( window ).resize(function() {
-	//home section image size to window size.
-	var height = $(window).height();
-    $(".home").css("height",height);
-	$(".home_wrap").css("height",height);
-	$(".home").css("max-width","100%");
+//$( window ).resize(function() {
+//	//home section image size to window size.
+//	var height = $(window).height();
+//    $(".home").css("height",height);
+//	$(".home_wrap").css("height",height);
+//	$(".home").css("max-width","100%");
 	
 	
 	
