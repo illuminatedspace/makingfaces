@@ -182,7 +182,24 @@ header .menu-icon i:hover{
     transition: all ease .5s;
 	padding:10px;
 	}
-
+#features .header-image{
+    background-image: url(../img/TemplateImg/blue-features-header-05.svg);
+}
+#faq .header-image{
+    background-image: url(../img/TemplateImg/orange-faq-header.svg);
+}
+#about .header-image {
+    background-image: url(../img/TemplateImg/green-about-header.svg);
+}
+#contact .header-image {
+    background-image: url(../img/TemplateImg/orange-contact-header.svg);
+}
+#about .main_heading h2{
+    text-align: left;
+}
+.header-image{
+    background-repeat: no-repeat;
+}
 @media(min-width:976px) {
     header .container {
         padding: 25px;
@@ -271,27 +288,13 @@ header .menu-icon i:hover{
     }
 	
     .header-image{
-        background-repeat: no-repeat;
-        background-size: contain;
         padding-bottom: 20px;
         height: 160px;
         width: 100%;
-    }
-    #features .header-image{
-        background-image: url(../img/TemplateImg/blue-features-header-05.svg);
-    }
-    #faq .header-image{
-        background-image: url(../img/TemplateImg/orange-faq-header.svg);
-    }
-    #about .header-image {
-        background-image: url(../img/TemplateImg/green-about-header.svg);
-    }
-    #contact .header-image {
-        background-image: url(../img/TemplateImg/orange-contact-header.svg);
+        background-size: contain;
     }
     #about .main_heading h2{
         font-size: 2em;
-        text-align: left;
     }
     .header-image h2{
         font-size: 5em;
@@ -429,10 +432,11 @@ header .menu-icon i:hover{
         font-size: 2em;
         text-align: center;
         clear: both;
-}
+        margin-top: 50px;
+    }
     .green-intro {
         color: lawngreen;
-        padding: 20px 0 5px;
+        padding: 20px 0 5px 0;
         font-size: 1.75em;
         clear: both;
     }
@@ -440,7 +444,29 @@ header .menu-icon i:hover{
         height: 6em;
         clear: both;
     }
-
+    .intro-screenshot {
+        margin-bottom: 0;
+    }
+    header.home {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    #features {
+        margin-top: 0;
+    }
+    .header-image {
+        width: 100%;
+        min-height: 100%;
+        overflow: visible;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        
+    }
+    .header-image h2 {
+        font-size: 3.2em !important;
+    }
+    
 }
 
 @media(min-width:976px) {
@@ -486,7 +512,6 @@ header .menu-icon i:hover{
     #about .row .container {
         margin: 60px 0;
     }
-    .about-tex
 }
 
 .navbar {
@@ -861,9 +886,19 @@ header.home{
 	width: 100%;
 	max-width:100%;
 	min-width: 100%;
-	padding: 80px 0 120px 0;
     background-color: white;
     align-content: center;
+}
+
+@media(min-width:976px) {
+    header.home {
+        padding: 80px 0 120px 0;
+    }
+}
+@media(max-width:977px) {
+    header.home {
+        padding: 80px 0 0px 0;
+    }
 }
 
 .nav, .navbar-nav, .navbar-right {
@@ -875,21 +910,7 @@ header.home{
     background-color: white;
     height: 50px;
     background-attachment: scroll;
-}
-/*.navbarpic .navbar-fixed-top{
-    background-image: url(../img/TemplateImg/navbar.svg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    overflow: visible;
-    padding-bottom: 30px;
-    margin-bottom: -27px;
-    background-position: right;
-    background-color: white;
-    background-clip: padding-box;
-    background-origin: content-box;
-    height: auto;
-}*/
-    
+} 
     .navbarpic {
         float: right;
         clear: none;
@@ -903,11 +924,6 @@ header.home{
         background-size: cover;
         overflow: visible;
     }
-    
-/*    .navbarpic > img {
-            width: 40em;
-        
-    }*/
     
 .home-wrap {
     
