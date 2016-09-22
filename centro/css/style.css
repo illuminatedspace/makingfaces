@@ -112,6 +112,7 @@ header .container {
     vertical-align: middle;
 }
 
+
 header img {
     display: block;
     margin: 0 auto 20px;
@@ -184,7 +185,7 @@ header .menu-icon i:hover{
 
 @media(min-width:976px) {
     header .container {
-        padding: 25px 100px 0 100px;
+        padding: 25px;
         background-color: white;
     }
     #faq{
@@ -192,21 +193,36 @@ header .menu-icon i:hover{
     }
     .blue-intro {
         color: #03a8ce;
-        font-size: 2em;
+        font-size: 2.8em;
         font-weight: bold;
         float: left;
         text-align: left;
 }
     .green-intro {
         color: lawngreen;
-        padding: 20px 0 5px;
-        font-size: 1.75em;
+        padding: 20px 0 20px 0;
+        font-size: 2.5em;
         float: left;
         text-align: left;
     }
+    
     .apple-store-button img{
     height: 6em;
     float: left;
+    }
+    
+    .home, .home_wrap, {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .home #output{
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .home #container {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
     }
 
     header .intro-text .name {
@@ -218,7 +234,10 @@ header .menu-icon i:hover{
     }
 	header  .menu-icon {
         font-size: 2.5em;
-		
+    }
+    
+    .intro-screenshot img {
+        width: 100%;
     }
     .feature-image img{
         max-width: 100%;

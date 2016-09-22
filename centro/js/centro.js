@@ -57,8 +57,8 @@ $( document ).ready(function() {
 	
 	//home section image size to window size.
 	var height = $(window).height();
-    $(".home").css("height",height);
-	$(".home_wrap").css("height",height);
+//    $(".home").css("height",height);
+//	$(".home_wrap").css("height",height);
 	$(".home").css("max-width","100%");
 	
 	
