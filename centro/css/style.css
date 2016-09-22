@@ -318,17 +318,6 @@ header .menu-icon i:hover{
        position: absolute;
         bottom: 0;
     }
-/*
-        bo
-        rder-image-source: url(../img/TemplateImg/cloud-white-top.svg);
-        border-image-outset: 20 0 0 0;
-        border-collapse: separate;
-        border-image-slice: 100%;
-        border-image-width: 100%;
-        border-style: solid;
-        border-image-repeat: stretch;
-        margin: 50px 0 0 0
-*/
     .faq-question{
         font-style: italic;
         font-weight: lighter;
@@ -377,8 +366,20 @@ header .menu-icon i:hover{
     .about-text-right{
         text-align: left;
     }
+    .about-image-right{
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 30%;
+        height: inherit;
+    }
     .about-image-left img, .about-image-right img{
         width: 50%;
+        margin: 0;
+        padding: 0;
+        width: inherit;
+        height: inherit;
+        
     }
     .about-image-left-1 img{
         width: 70%;
@@ -387,10 +388,16 @@ header .menu-icon i:hover{
         float: right;
     }
     .about-image-right .col-md-6{
-        float: right;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: inherit;
     }
     .about-image-right .col-md-6 img {
         float:left;
+        margin: 0;
+        padding: 0;
     }
     .apple-store-button-about {
         margin: 0px 0 0 0;
