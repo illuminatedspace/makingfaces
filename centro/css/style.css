@@ -353,6 +353,7 @@ header .menu-icon i:hover{
     .about-section{
         clear: both;
         width: 100%;
+        height: inherit;
         margin-bottom: 20px;
     }
     .about-text-right, .about-text-left{
@@ -416,7 +417,7 @@ header .menu-icon i:hover{
         -moz-transition: padding .3s;
         transition: padding .3s;
         background-position: left;
-        max-height: 90px;
+        max-height: 75px;
         background-color: white;
     }
 
@@ -435,8 +436,9 @@ header .menu-icon i:hover{
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0;
         background-color: white;
+        border-bottom: 1px solid #808080;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -478,7 +480,7 @@ header .menu-icon i:hover{
 }
 
 section {
-    padding: 10px 0;
+    padding: 0px 0 50px 0;
 	background-color: #f2f2f2;
 }
 
@@ -1562,7 +1564,8 @@ div.menu-icon:not(:hover) {
 	text-transform:uppercase;
 }
 .navbar-brand{
-	padding:5px 0 0 0;
+	margin: 10px 0 0 0;
+    padding:5px 0 0 0;
     float: left;
     width: auto;
 }
