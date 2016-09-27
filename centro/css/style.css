@@ -93,385 +93,7 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-@media(min-width:768px) {
-    #content .navbar .container {
-        min-width: 95%;
-    }
-    .navbar-fixed-top.navbar-shrink {
-        padding: 0;
-        background-color: white;
-        border-bottom: 1px solid #808080;
-        height: 75px;
-    }
-    .navbarpic {
-        width: 10px;
-        overflow-x: hidden;
-        height: 100px;
-        max-width: 600px;
-        min-width: 530px;
-    }
-    .home .row {
-        margin-top: 50px;
-    }
-    .intro-text {
-        float: left;
-    }
-    .blue-intro {
-        color: #03a8ce;
-        font-size: 2em;
-        text-align: center;
-        clear: both;
-        margin-top: 50px;
-    }
-    .green-intro {
-        color: lawngreen;
-        padding: 20px 0 5px 0;
-        font-size: 1.75em;
-        clear: both;
-    }
-    .apple-store-button img{
-        height: 6em;
-        clear: both;
-        float: right;
-        margin: 0 0 0 0px;
-    }
-    .apple-store-button{
-        float: right;
-        padding: 0 0 0 25px;
-        margin: 0;
-    }
-    .intro-screenshot {
-        margin-bottom: 0;
-    }
-    header.home {
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    #features {
-        margin-top: 0;
-    }
-    #features h2 {
-        font-size: 1em;
-    }
-    .header-image {
-        width: 100%;
-        min-height: 100%;
-        overflow: visible;
-        margin: 0;
-        padding: 0;
-        background-size: cover;
-        
-    }
-    .header-image h2 {
-        font-size: 3.2em !important;
-    }
-    header.home {
-        padding: 80px 0 0px 0;
-    }
-	.left-services .service-item .fa-stack{
-	float:left;
-	color: #2c3e50;
-	margin-right:15px;
-	font-size:2.5em;
-	}
-	.left-services .service-item{
-		text-align:left;
-		margin: 40px 0;
-	}
-	.left-services .service-item h4{
-		margin-left:90px;
-	}
-	.left-services .service-item p{
-		margin-left:90px;
-	}
-	.left-services .service-item .fa-stack{
-		float:left;
-	}
-}
-@media(min-width:976px) {
-    .navbarpic {
-        height: 100px;
-        max-width: 800px;
-        min-width: 600px;
-    }
-    #content .navbar .container {
-        min-width: 90%;
-    }
-    header.home {
-        padding: 80px 0 120px 0;
-    }
-    header .container {
-        padding: 25px;
-        background-color: white;
-    }
-    #faq{
-        background-color: #ee8d52;
-    }
-    .blue-intro {
-        color: #03a8ce;
-        font-size: 2.8em;
-        font-weight: bold;
-        float: left;
-        text-align: left;
-    }
-    .green-intro {
-        color: lawngreen;
-        padding: 20px 0 20px 0;
-        font-size: 2.5em;
-        float: left;
-        text-align: left;
-    }
-    .apple-store-button img{
-    height: 6em;
-    float: left;
-    }
-    .home, .home_wrap, {
-        padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
-    }
-    .home #output{
-        padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
-    }
-    header .intro-text .name {
-        font-size: 1.869em;
-    }
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-	header  .menu-icon {
-        font-size: 2.5em;
-    }
-    .intro-screenshot img {
-        width: 100%;
-    }
-    .feature-image img{
-        max-width: 100%;
-    }
-    .feature-description-left, .feature-description-right{
-        font-family: 'bariol';
-        font-size: 2.25em;
-    }
-    .feature-description-right {
-        float: right;
-        text-align: right;
-    }
-    .feature-description-left{
-        float: left;
-        text-align: left;
-    }
-    .feature-title-left h4, .feature-title-right h4{
-        font-family: 'bariol';
-        font-size: 3em;
-        font-weight: bold;
-        margin-bottom: 1em;
-    }
-    .feature-title-left h4{
-        float: left;
-        text-align: left;
-    }
-    .feature-title-right h4{
-        float: right;
-        text-align: right;
-    }
-    .header-image{
-        padding-bottom: 20px;
-        height: 160px;
-        width: 100%;
-        background-size: contain;
-    }
-    #about .main_heading h2{
-        font-size: 2em;
-    }
-    .header-image h2{
-        font-size: 5em;
-        margin-left: 40px;
-    }
-    .feature-header{
-        font-size: 1.5em;
-    }
-    .how-it-works-header{
-        padding: 100px 0 0 0;
-        font-size: 2em;
-        text-align: center;
-        background-image: url(../img/TemplateImg/cloud-white-top.svg);
-        background-origin: padding-box;
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size:cover;
-        background-clip: padding-box;
-        clear: both;
-    }
-    div .how-it-works-header span{
-       position: absolute;
-        bottom: 0;
-    }
-    .faq-question{
-        font-style: italic;
-        font-weight: lighter;
-    }
-    .faq-answer{
-        font-weight: normal;
-        margin-bottom: 2em;
-    }
-    .faq-footer{
-        font-weight: bold;
-        font-size: 1.5em;
-        clear: both;
-        display: block;
-        background-image: url(../img/TemplateImg/orange-faq-footer-cloud.svg);
-        background-origin: border-box;
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 100px 100px 20px 100px;
-    }
-    #about{
-        background-color: white;
-    }
-    .about-section{
-        clear: both;
-        width: 100%;
-        height: inherit;
-        margin-bottom: 20px;
-    }
-    .about-text-right, .about-text-left{
-        font-family: "bariol";
-        font-size: 2em;
-        color: #03a8ce;
-    }
-    .about-text-right .col-md-6{
-        float: right;
-        
-    }
-    .about-text-left .col-md-6{
-        float: right;
-    }
-    .about-text-left{
-        text-align: right;
-        float: left;
-    }
-    .about-text-right{
-        text-align: left;
-    }
-    .about-image-right{
-        float: left;
-        margin: 0;
-        padding: 0;
-        width: 30%;
-        height: inherit;
-    }
-    .about-image-left img, .about-image-right img{
-        width: 50%;
-        margin: 0;
-        padding: 0;
-        width: inherit;
-        height: inherit;
-        
-    }
-    .about-image-left-1 img{
-        width: 70%;
-    }
-    .about-image-left .col-md-6 img, .about-image-left-1 .col-md-6 img{
-        float: right;
-    }
-    .about-image-right .col-md-6{
-        float: left;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: inherit;
-    }
-    .about-image-right .col-md-6 img {
-        float:left;
-        margin: 0;
-        padding: 0;
-    }
-    .apple-store-button-about {
-        margin: 0px 0 0 0;
-        padding: 0 0 0 0;
-/*        float: right;*/
-    }
-    .navbar-fixed-top {
-        padding: 15px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-        background-position: left;
-        max-height: 75px;
-        background-color: white;
-    }
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-        padding-bottom: 50px;
 
-    }
-    .navbar-fixed-top {
-        padding-bottom:;
-        margin-bottom: ;
-    }
-    .navbar-fixed-top.navbar-shrink {
-        padding: 0;
-        background-color: white;
-        border-bottom: 1px solid #808080;
-    }
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-    .nav-background {
-        margin: 0px;
-        background-color: white;
-        height: 25px;
-        overflow: visible;
-    }
-    #about .row .container {
-        margin: 60px 0;
-    }
-    #portfolio .portfolio-item {
-        margin: 0px;
-    }
-    section .col-lg-12{
-        font-family: 'bariol';
-        font-size: 1.75em;
-        font-weight: bold;
-    }
-	.left-services .service-item .fa-stack{
-		float:right;
-		color: #2c3e50;
-		margin-left:15px;
-		font-size:2.5em;
-	}
-	.left-services .service-item{
-		text-align:right;
-		margin: 40px 0;
-	}
-	.left-services .service-item h4{
-		margin-right:90px;
-	}
-	.left-services .service-item p{
-		margin-right:90px;
-	}
-	.intro-text slides li{
-		font-size: 1.875em;
-	}
-
-    .how-it-works-header {
-        margin-top: 500px;
-        clear: both;
-    }
-
-    h2 {
-        font-size: 3.8em !important;
-    }
-
-    .how-it-works-header {
-        margin: 2em 0 1em 0;
-        clear: both;
-    }
-}
 header {
     text-align: center;
     background-color: white;
@@ -501,7 +123,7 @@ header img {
 }
 
 .green-intro {
-    color: lawngreen;
+    color: #90b13d;
     line-height: 1em;
     letter-spacing: .1em;
 }
@@ -514,7 +136,9 @@ header img {
     padding: 4em;
     clear: both;
 }
-
+.container {
+    
+}
 header .name {
     text-transform: none;
     'Titillium Web',"Helvetica Neue", sans-serif;
@@ -525,7 +149,6 @@ header .name {
 }
 header .intro-text {
 	height: 100%;
-    max-width: 40p;
 }
 header .intro-text .skills {
     font-size: 1.25em;
@@ -576,31 +199,82 @@ header .menu-icon i:hover{
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+.navbar-fixed-top.navbar-shrink{
+	display:block;
+	-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    padding: 0;
+    background-color: white;
+    border-bottom: 1px solid #808080;
+    height: 75px;
+}
 .navbar a:focus {
     outline: 0;
 }
+#content .navbar .container {
+    min-width: 95%;
+}
+.navbarpic {
+    background-image: url(../img/TemplateImg/navbar.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100px;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 1px 0;
+    float: right;
+    clear: none;
+    z-index: 0;
+    margin-left: -100%;
 
+}
 .nav .navbar-nav .navbar-right {
     background-color: transparent;
+    float: right;
+    z-index: 2;
 }
-
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
-
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+.navbarwhite {
+    background-color: white;
+    height: 50px;
+    background-attachment: scroll;
+}
+.navbar-default {
+	background-color: #fff;
+	border-color: transparent;
+}
+.navbar-brand{
+	margin: 10px 0 0 0;
+    padding:5px 0 0 0;
+    float: left;
+    width: auto;
+}
+.navbar-header .navbar .navbar-default .navbar-fixed-top .navbar-shrink {
+/*svg*/
+}
+.navbar-brand i{
+	font-size: 15px;
+	margin-left: -2px;
+	margin-top: -5px;
+	vertical-align: middle;
 }
 
 section {
@@ -930,27 +604,7 @@ header.home{
     align-content: center;
 }
 
-.nav, .navbar-nav, .navbar-right {
-    float: right;
-    z-index: 2;
-}
 
-.navbarwhite {
-    background-color: white;
-    height: 50px;
-    background-attachment: scroll;
-} 
-.navbarpic {
-    float: right;
-    clear: none;
-    z-index: 0;
-    margin-left: -100%;
-    background-image: url(../img/TemplateImg/navbar.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    overflow: visible;
-}
     
 .home-wrap {
     
@@ -959,12 +613,6 @@ header.home{
 .dropdown-menu li{
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700;
-}
-.navbar-fixed-top.navbar-shrink{
-	display:block;
-	-webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
 }
 header.home .img-responsive{
     width: 120px;
@@ -1159,6 +807,406 @@ border-top: 22px solid #3fbfE1;
 	padding-top:50px;
 }
 
+@media(min-width:768px) {
+    #content .navbar .container {
+        min-width: 95%;
+    }
+    .navbar-fixed-top.navbar-shrink {
+        padding: 0;
+        background-color: white;
+        border-bottom: 1px solid #808080;
+        height: 75px;
+    }
+    .navbarpic {
+        width: 10px;
+        overflow-x: hidden;
+        height: 100px;
+        max-width: 600px;
+        min-width: 530px;
+        background-position: right;
+        background-size: contain;
+    }
+    .home .row {
+        margin-top: 50px;
+    }
+    .intro-text {
+        float: left;
+    }
+    .blue-intro {
+        color: #03a8ce;
+        font-size: 2em;
+        text-align: left;
+        clear: both;
+        margin-top: 0px;
+    }
+    .green-intro {
+        color: #90b13d;
+        padding: 20px 0 5px 0;
+        font-size: 1.75em;
+        clear: both;
+        text-align: left;
+    }
+    .apple-store-button img{
+        height: 6em;
+        clear: both;
+        float: none;
+        margin: auto;
+    }
+    .apple-store-button{
+        float: none;
+        padding: 0 0 0 0px;
+        margin: auto;
+    }
+    .intro-screenshot {
+        margin-bottom: 0;
+    }
+    header.home {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    #features {
+        margin-top: 0;
+    }
+    #features h2 {
+        font-size: 1em;
+    }
+    .header-image {
+        width: 100%;
+        min-height: 100%;
+        overflow: visible;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        
+    }
+    .header-image h2 {
+        font-size: 3.2em !important;
+    }
+    header.home {
+        padding: 80px 0 0px 0;
+    }
+	.left-services .service-item .fa-stack{
+	float:left;
+	color: #2c3e50;
+	margin-right:15px;
+	font-size:2.5em;
+	}
+	.left-services .service-item{
+		text-align:left;
+		margin: 40px 0;
+	}
+	.left-services .service-item h4{
+		margin-left:90px;
+	}
+	.left-services .service-item p{
+		margin-left:90px;
+	}
+	.left-services .service-item .fa-stack{
+		float:left;
+	}
+}
+@media(min-width:976px) {
+    .navbarpic {
+        min-width: 580px;
+        float: right;
+        clear: none;
+        z-index: 0;
+        margin-left: -100%;
+        background-image: url(../img/TemplateImg/navbar.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        overflow: visible;
+    }
+    #content .navbar .container {
+        min-width: 90%;
+    }
+    .home .row {
+        width: 980px;
+    }
+    header.home {
+        padding: 80px 0 120px 0;
+    }
+    header .container {
+        padding: 25px;
+        background-color: white;
+    }
+    #faq{
+        background-color: #ee8d52;
+    }
+    .blue-intro {
+        color: #03a8ce;
+        font-size: 2.8em;
+        font-weight: bold;
+        float: left;
+        text-align: left;
+    }
+    .green-intro {
+        color: #90b13d;
+        padding: 20px 0 20px 0;
+        font-size: 2.5em;
+        float: left;
+        text-align: left;
+    }
+    .apple-store-button img{
+        height: 6em;
+        float: none;
+        margin: auto;
+
+    }
+    .apple-store-button {
+        width: 100%;
+        margin: 0 auto 0 auto;
+        float: none;
+        padding: 0;
+    }
+    .home, .home_wrap, {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .home #output{
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    header .intro-text .name {
+        font-size: 1.869em;
+    }
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+	header  .menu-icon {
+        font-size: 2.5em;
+    }
+    .intro-screenshot img {
+        width: 100%;
+    }
+    .feature-image img{
+        max-width: 100%;
+    }
+    .feature-description-left, .feature-description-right{
+        font-family: 'bariol';
+        font-size: 2.25em;
+    }
+    .feature-description-right {
+        float: right;
+        text-align: right;
+    }
+    .feature-description-left{
+        float: left;
+        text-align: left;
+    }
+    .feature-title-left h4, .feature-title-right h4{
+        font-family: 'bariol';
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+    .feature-title-left h4{
+        float: left;
+        text-align: left;
+    }
+    .feature-title-right h4{
+        float: right;
+        text-align: right;
+    }
+    .header-image{
+        padding-bottom: 20px;
+        height: 160px;
+        width: 100%;
+        background-size: contain;
+    }
+    #about .main_heading h2{
+        font-size: 2em;
+    }
+    .header-image h2{
+        font-size: 5em;
+        margin-left: 40px;
+    }
+    .feature-header{
+        font-size: 1.5em;
+    }
+    .how-it-works-header{
+        padding: 100px 0 0 0;
+        font-size: 2em;
+        text-align: center;
+        background-image: url(../img/TemplateImg/cloud-white-top.svg);
+        background-origin: padding-box;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:cover;
+        background-clip: padding-box;
+        clear: both;
+    }
+    div .how-it-works-header span{
+       position: absolute;
+        bottom: 0;
+    }
+    .faq-question{
+        font-style: italic;
+        font-weight: lighter;
+    }
+    .faq-answer{
+        font-weight: normal;
+        margin-bottom: 2em;
+    }
+    .faq-footer{
+        font-weight: bold;
+        font-size: 1.5em;
+        clear: both;
+        display: block;
+        background-image: url(../img/TemplateImg/orange-faq-footer-cloud.svg);
+        background-origin: border-box;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px 100px 20px 100px;
+    }
+    #about{
+        background-color: white;
+    }
+    .about-section{
+        clear: both;
+        width: 100%;
+        height: inherit;
+        margin-bottom: 20px;
+    }
+    .about-text-right, .about-text-left{
+        font-family: "bariol";
+        font-size: 2em;
+        color: #03a8ce;
+    }
+    .about-text-right .col-md-6{
+        float: right;
+        
+    }
+    .about-text-left .col-md-6{
+        float: right;
+    }
+    .about-text-left{
+        text-align: right;
+        float: left;
+    }
+    .about-text-right{
+        text-align: left;
+    }
+    .about-image-right{
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 30%;
+        height: inherit;
+    }
+    .about-image-left img, .about-image-right img{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        width: inherit;
+        height: inherit;
+        
+    }
+    .about-image-left-1 img{
+        width: 70%;
+    }
+    .about-image-left .col-md-6 img, .about-image-left-1 .col-md-6 img{
+        float: right;
+    }
+    .about-image-right .col-md-6{
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: inherit;
+    }
+    .about-image-right .col-md-6 img {
+        float:left;
+        margin: 0;
+        padding: 0;
+    }
+    .apple-store-button-about {
+        margin: 0px 0 0 0;
+        padding: 0 0 0 0;
+/*        float: right;*/
+    }
+    .navbar-fixed-top {
+        padding: 15px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        background-position: left;
+        max-height: 75px;
+        background-color: white;
+    }
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        padding-bottom: 50px;
+
+    }
+    .navbar-fixed-top {
+        padding-bottom:;
+        margin-bottom: ;
+    }
+    .navbar-fixed-top.navbar-shrink {
+        padding: 0;
+        background-color: white;
+        border-bottom: 1px solid #808080;
+    }
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+    .nav-background {
+        margin: 0px;
+        background-color: white;
+        height: 25px;
+        overflow: visible;
+    }
+    #about .row .container {
+        margin: 60px 0;
+    }
+    #portfolio .portfolio-item {
+        margin: 0px;
+    }
+    section .col-lg-12{
+        font-family: 'bariol';
+        font-size: 1.75em;
+        font-weight: bold;
+    }
+	.left-services .service-item .fa-stack{
+		float:right;
+		color: #2c3e50;
+		margin-left:15px;
+		font-size:2.5em;
+	}
+	.left-services .service-item{
+		text-align:right;
+		margin: 40px 0;
+	}
+	.left-services .service-item h4{
+		margin-right:90px;
+	}
+	.left-services .service-item p{
+		margin-right:90px;
+	}
+	.intro-text slides li{
+		font-size: 1.875em;
+	}
+
+    .how-it-works-header {
+        margin-top: 500px;
+        clear: both;
+    }
+
+    h2 {
+        font-size: 3.8em;
+    }
+
+    .how-it-works-header {
+        margin: 2em 0 1em 0;
+        clear: both;
+    }
+}
 
 /* Blog Page CSS */
 .blog_photo{
@@ -1326,12 +1374,6 @@ border-top: 22px solid #3fbfE1;
   -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-}
-.navbar-brand i{
-	font-size: 15px;
-	margin-left: -2px;
-	margin-top: -5px;
-	vertical-align: middle;
 }
 .slides{
 	list-style:none; 
@@ -1599,15 +1641,8 @@ div.menu-icon:not(:hover) {
 .uppercase{
 	text-transform:uppercase;
 }
-.navbar-brand{
-	margin: 10px 0 0 0;
-    padding:5px 0 0 0;
-    float: left;
-    width: auto;
-}
-.navbar-header .navbar .navbar-default .navbar-fixed-top .navbar-shrink {
-/*svg*/
-}
+
+
 .top-logo {
     float: left;
     padding: 3px 0;
@@ -1622,21 +1657,17 @@ div.menu-icon:not(:hover) {
     width: auto;
     height: auto;
 }
-.navbar-default {
-	background-color: #fff;
-	border-color: transparent;
+
+
+.element-item.portfolio-item {
+    max-width: 50%;
+    padding: 10px;
+}
+.team-info{
+    padding: 15px 0px 0;
 }
 
-
-	.element-item.portfolio-item {
-		max-width: 50%;
-		padding: 10px;
-	}
-	.team-info{
-		padding: 15px 0px 0;
-	}
-
-	.element-item.portfolio-item {
-		max-width: 100%;
-		padding: 10px;
-	}
+.element-item.portfolio-item {
+    max-width: 100%;
+    padding: 10px;
+}
