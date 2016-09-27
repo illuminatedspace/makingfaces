@@ -812,6 +812,24 @@ border-top: 22px solid #3fbfE1;
 }
 
 @media(min-width:768px) {
+/* SHARED ELEMENTS */
+    .header-image {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 20px 0;
+        padding: 0 0 40px 30px;
+        background-size: contain;
+        background-origin: padding-box;
+        background-position: top;
+    }
+    .header-image h2 {
+        font-size: 3.2em;
+    }
+
+/* NAVBAR ELEMENTS */
+    .navbar-brand .top-icon{
+        width 0;
+    }
     #content .navbar .container {
         min-width: 95%;
     }
@@ -833,6 +851,8 @@ border-top: 22px solid #3fbfE1;
     .home .row {
         margin-top: 50px;
     }
+
+/* HOME ELEMENTS */
     .intro-text {
         float: left;
     }
@@ -867,22 +887,9 @@ border-top: 22px solid #3fbfE1;
     header.home {
         padding-bottom: 0;
         margin-bottom: 0;
-    }
-    .header-image {
-        width: 100%;
-        height: 100%;
-        margin: 0 0 20px 0;
-        padding: 0 0 40px 30px;
-        background-size: contain;
-        background-origin: padding-box;
-        background-position: top;
-    }
-    .header-image h2 {
-        font-size: 3.2em;
-    }
-    header.home {
         padding: 80px 0 0px 0;
     }
+
     
 /* FEATURES ELEMENTS */
     #features {
@@ -988,6 +995,9 @@ border-top: 22px solid #3fbfE1;
 	}
 }
 @media(min-width:976px) {
+/* SAHRED ELEMENETS */
+    
+/* NAVBAR ELEMENTS */
     .navbarpic {
         min-width: 580px;
         float: right;
@@ -1003,6 +1013,8 @@ border-top: 22px solid #3fbfE1;
     #content .navbar .container {
         min-width: 90%;
     }
+
+/* HOME ELEMENTS */
     .home .row {
         width: 980px;
     }
@@ -1025,8 +1037,6 @@ border-top: 22px solid #3fbfE1;
         padding: 0;
         background-size: cover;
     }
-
-
     .blue-intro {
         color: #03a8ce;
         font-size: 2.8em;
