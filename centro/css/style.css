@@ -288,6 +288,9 @@ section h2 {
     font-size: 2.5em;
 }
 
+#faq{
+    background-color: #ee8d52;
+}   
 
 section.success {
     color: #fff;
@@ -869,7 +872,7 @@ border-top: 22px solid #3fbfE1;
         width: 100%;
         height: 100%;
         margin: 0 0 20px 0;
-        padding: 0 0 30px 20px;
+        padding: 0 0 40px 30px;
         background-size: contain;
         background-origin: padding-box;
         background-position: top;
@@ -887,6 +890,7 @@ border-top: 22px solid #3fbfE1;
     }
     .feature-header{
         font-size: 2em;
+        text-align: center;
     }
     .feature-image img{
         max-width: 100%;
@@ -895,13 +899,13 @@ border-top: 22px solid #3fbfE1;
         font-family: 'bariol';
         font-size: 2.25em;
         float: none;
-        text-align: left;
+        text-align: center;
     }
     .how-it-works-header {
         margin-top: 500px;
         margin: 2em 0 1em 0;
-        padding: 100px 0 0 0;
-        font-size: 4em;
+        padding: 90px 0 0 0;
+        font-size: 3em;
         text-align: center;
         background-image: url(../img/TemplateImg/cloud-white-top.svg);
         background-origin: padding-box;
@@ -913,6 +917,56 @@ border-top: 22px solid #3fbfE1;
         font-family: bariol, arial, sans-serif;
         font-weight: bold;
     }
+    .feature {
+        padding: 10px;
+    }
+    .feature-title-left h4, .feature-title-right h4{
+        font-family: 'bariol';
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+    .feature-description-right, .feature-description-left {
+        font-size: 2em;
+    }
+    .feature-title-left, .feature-title-right, .feature-description-right, .feature-description-left {
+        text-align: center;
+    }
+    .feature-title-left, .feature-description-left{
+        
+    }
+    .feature-title-right, .feature-description-right {
+        
+    }
+    
+/* FAQ ELEMENTS*/
+    #faq {
+        padding-bottom: 25px;
+    }
+    .faq-question{
+        font-style: italic;
+            font-size: 1.5em;    
+        font-weight: lighter;
+    }
+    .faq-answer{
+        font-size: 1.5em;
+        font-weight: normal;
+        margin-bottom: 2em;
+    }
+    .faq-footer{
+        font-weight: bold;
+        font-size: 1.5em;
+        clear: both;
+        display: block;
+        background-image: url(../img/TemplateImg/orange-faq-footer-cloud.svg);
+        background-origin: border-box;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 100px 20px 100px;
+        margin: 0;
+    }
+    
 	.left-services .service-item .fa-stack{
 	float:left;
 	color: #2c3e50;
@@ -972,9 +1026,7 @@ border-top: 22px solid #3fbfE1;
         background-size: cover;
     }
 
-    #faq{
-        background-color: #ee8d52;
-    }
+
     .blue-intro {
         color: #03a8ce;
         font-size: 2.8em;
@@ -1084,6 +1136,8 @@ border-top: 22px solid #3fbfE1;
         font-size: 2em;
     }
 
+/* FAQ ELEMENTS */
+ 
     .faq-question{
         font-style: italic;
         font-weight: lighter;
@@ -1104,6 +1158,8 @@ border-top: 22px solid #3fbfE1;
         background-repeat: no-repeat;
         padding: 100px 100px 20px 100px;
     }
+
+    
     #about{
         background-color: white;
     }
