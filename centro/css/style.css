@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-
+    font-family: 'Bariol', 'arial', sans-serif;
 }
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
@@ -32,7 +32,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Titillium Web',"Helvetica Neue", sans-serif;
+	font-family: 'Bariol',"Helvetica Neue", sans-serif;
+    font-weight: bold;
 	line-height: 1.11;  
 }
 hr.star-light,
@@ -864,26 +865,53 @@ border-top: 22px solid #3fbfE1;
         padding-bottom: 0;
         margin-bottom: 0;
     }
-    #features {
-        margin-top: 0;
-    }
-    #features h2 {
-        font-size: 1em;
-    }
     .header-image {
         width: 100%;
-        min-height: 100%;
-        overflow: visible;
-        margin: 0;
-        padding: 0;
-        background-size: cover;
-        
+        height: 100%;
+        margin: 0 0 20px 0;
+        padding: 0 0 30px 20px;
+        background-size: contain;
+        background-origin: padding-box;
+        background-position: top;
     }
     .header-image h2 {
-        font-size: 3.2em !important;
+        font-size: 3.2em;
     }
     header.home {
         padding: 80px 0 0px 0;
+    }
+    
+/* FEATURES ELEMENTS */
+    #features {
+        margin-top: 0;
+    }
+    .feature-header{
+        font-size: 2em;
+    }
+    .feature-image img{
+        max-width: 100%;
+    }
+    .feature-description-left, .feature-description-right{
+        font-family: 'bariol';
+        font-size: 2.25em;
+        float: none;
+        text-align: left;
+    }
+    .how-it-works-header {
+        margin-top: 500px;
+        margin: 2em 0 1em 0;
+        padding: 100px 0 0 0;
+        font-size: 4em;
+        text-align: center;
+        background-image: url(../img/TemplateImg/cloud-white-top.svg);
+        background-origin: padding-box;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:contain;
+        background-clip: padding-box;
+        clear: both;
+        font-family: bariol, arial, sans-serif;
+        font-weight: bold;
     }
 	.left-services .service-item .fa-stack{
 	float:left;
@@ -931,6 +959,19 @@ border-top: 22px solid #3fbfE1;
         padding: 25px;
         background-color: white;
     }
+    .header-image h2{
+        font-size: 3.8em;
+        margin-left: 40px;
+    }
+    .header-image{
+        width: 100%;
+        min-height: 100%;
+        overflow: visible;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+    }
+
     #faq{
         background-color: #ee8d52;
     }
@@ -980,6 +1021,11 @@ border-top: 22px solid #3fbfE1;
     .intro-screenshot img {
         width: 100%;
     }
+    
+/* FEATURES ELEMENTS */
+    .feature-header{
+        font-size: 1.5em;
+    }
     .feature-image img{
         max-width: 100%;
     }
@@ -1015,17 +1061,9 @@ border-top: 22px solid #3fbfE1;
         width: 100%;
         background-size: contain;
     }
-    #about .main_heading h2{
-        font-size: 2em;
-    }
-    .header-image h2{
-        font-size: 5em;
-        margin-left: 40px;
-    }
-    .feature-header{
-        font-size: 1.5em;
-    }
-    .how-it-works-header{
+    .how-it-works-header {
+        margin-top: 500px;
+        margin: 2em 0 1em 0;
         padding: 100px 0 0 0;
         font-size: 2em;
         text-align: center;
@@ -1040,7 +1078,12 @@ border-top: 22px solid #3fbfE1;
     div .how-it-works-header span{
        position: absolute;
         bottom: 0;
+    }    
+    
+    #about .main_heading h2{
+        font-size: 2em;
     }
+
     .faq-question{
         font-style: italic;
         font-weight: lighter;
@@ -1193,18 +1236,17 @@ border-top: 22px solid #3fbfE1;
 		font-size: 1.875em;
 	}
 
-    .how-it-works-header {
-        margin-top: 500px;
-        clear: both;
-    }
+
 
     h2 {
-        font-size: 3.8em;
+        font-size: 3.2em;
     }
 
-    .how-it-works-header {
-        margin: 2em 0 1em 0;
-        clear: both;
+
+@media(min-width:1216px) {
+    .header-image h2{
+        font-size: 4.8em;
+        margin-left: 40px;
     }
 }
 
