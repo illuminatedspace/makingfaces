@@ -826,9 +826,9 @@ border-top: 22px solid #3fbfE1;
         overflow-x: hidden;
         height: 100px;
         max-width: 600px;
-        min-width: 530px;
-        background-position: right;
-        background-size: contain;
+        min-width: 520px;
+        background-position: bottom;
+        background-size: cover;
     }
     .home .row {
         margin-top: 50px;
