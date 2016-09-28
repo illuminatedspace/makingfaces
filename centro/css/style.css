@@ -271,13 +271,33 @@ header .menu-icon i:hover{
 .navbar-header .navbar .navbar-default .navbar-fixed-top .navbar-shrink {
 /*svg*/
 }
-.navbar-brand i{
+
+
+.navbar-brand img {
 	font-size: 15px;
 	margin-left: -2px;
 	margin-top: -5px;
 	vertical-align: middle;
 }
-
+.navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    padding-bottom: 50px;
+}
+.navbar-fixed-top {
+    padding-bottom:;
+    margin-bottom: ;
+}
+.navbar-fixed-top.navbar-shrink {
+    padding: 0;
+    background-color: white;
+    border-bottom: 1px solid #808080;
+}
+.navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+}
 section {
     padding: 0px 0 50px 0;
 	background-color: #f2f2f2;
@@ -812,15 +832,57 @@ border-top: 22px solid #3fbfE1;
 }
 
 @media(min-width:768px) {
+/* SHARED ELEMENTS */
+    
+/* NAVBAR ELEMENTS */
     #content .navbar .container {
         min-width: 95%;
     }
+    
     .navbar-fixed-top.navbar-shrink {
         padding: 0;
         background-color: white;
         border-bottom: 1px solid #808080;
         height: 75px;
     }
+    
+    .top-icon img {
+        width: 50px;
+    }
+/*
+    .navbar-brand {
+        margin: 8px 0 0 0;
+        padding: 0 0 0 0;
+        float: left;
+        width: 200px;
+        height: ;
+    }
+
+    .navbar-header {
+        width: 300px;
+    }
+
+    .navbar-brand img {
+        font-size: 15px;
+
+
+    }
+
+    .top-icon img {
+        height: 55px;
+    }
+
+    .top-logo {
+        float: right;
+        clear: none;
+    }
+
+    .top-icon {
+        float: left;
+        clear: none;
+    }
+*/
+    
     .navbarpic {
         width: 10px;
         overflow-x: hidden;
@@ -830,6 +892,8 @@ border-top: 22px solid #3fbfE1;
         background-position: bottom;
         background-size: cover;
     }
+
+/* HOME ELEMENTS */
     .home .row {
         margin-top: 50px;
     }
@@ -865,7 +929,7 @@ border-top: 22px solid #3fbfE1;
         margin-bottom: 0;
     }
     header.home {
-        padding-bottom: 0;
+        padding: 80px 0 0px 0;
         margin-bottom: 0;
     }
     .header-image {
@@ -879,9 +943,6 @@ border-top: 22px solid #3fbfE1;
     }
     .header-image h2 {
         font-size: 3.2em;
-    }
-    header.home {
-        padding: 80px 0 0px 0;
     }
     
 /* FEATURES ELEMENTS */
@@ -967,6 +1028,54 @@ border-top: 22px solid #3fbfE1;
         margin: 0;
     }
     
+/* ABOUT ELEMENTS */
+    #about{
+        background-color: white;
+    }
+    .about-section{
+        clear: both;
+        width: 100%;
+        height: inherit;
+        margin-bottom: 20px;
+    }
+    .about-text-right, .about-text-left{
+        font-family: "bariol";
+        font-size: 2em;
+        color: #03a8ce;
+    }
+    
+    .about-image-right, .about-image-left, .about-image-left-1, .about-text-right, .about-text-left, #about col-md-6{
+        float: none;
+        margin: auto;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .about-image-right img, .about-image-left img {
+        width: 30%;
+    }
+
+    .about-image-left-1 img{
+        width: 50%;
+    }
+
+    .apple-store-button-about {
+        float: none;
+        margin: auto;
+        padding: 0 0 15px 0;
+    }
+    
+    .apple-store-button-about img {
+        float: none;
+        margin: auto;
+    }
+
+    #about .row .container {
+        margin: 60px 0;
+    }
+
+/* UNKNOWN & UNUSED ELEMENTS */
 	.left-services .service-item .fa-stack{
 	float:left;
 	color: #2c3e50;
@@ -988,6 +1097,12 @@ border-top: 22px solid #3fbfE1;
 	}
 }
 @media(min-width:976px) {
+/* SHARED ELEMENTS */
+    h2 {
+        font-size: 3.2em;
+    }
+
+/* NAVBAR ELEMENTS */
     .navbarpic {
         min-width: 580px;
         float: right;
@@ -1003,6 +1118,24 @@ border-top: 22px solid #3fbfE1;
     #content .navbar .container {
         min-width: 90%;
     }
+    .navbar-fixed-top {
+        padding: 15px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        background-position: left;
+        max-height: 75px;
+        background-color: white;
+    }
+
+    .nav-background {
+        margin: 0px;
+        background-color: white;
+        height: 25px;
+        overflow: visible;
+    }
+    
+/* HOME ELEMENTS */
     .home .row {
         width: 980px;
     }
@@ -1025,7 +1158,6 @@ border-top: 22px solid #3fbfE1;
         padding: 0;
         background-size: cover;
     }
-
 
     .blue-intro {
         color: #03a8ce;
@@ -1159,7 +1291,7 @@ border-top: 22px solid #3fbfE1;
         padding: 100px 100px 20px 100px;
     }
 
-    
+/* ABOUT ELEMENTS */
     #about{
         background-color: white;
     }
@@ -1226,44 +1358,12 @@ border-top: 22px solid #3fbfE1;
         padding: 0 0 0 0;
 /*        float: right;*/
     }
-    .navbar-fixed-top {
-        padding: 15px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-        background-position: left;
-        max-height: 75px;
-        background-color: white;
-    }
-    .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-        padding-bottom: 50px;
 
-    }
-    .navbar-fixed-top {
-        padding-bottom:;
-        margin-bottom: ;
-    }
-    .navbar-fixed-top.navbar-shrink {
-        padding: 0;
-        background-color: white;
-        border-bottom: 1px solid #808080;
-    }
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-    .nav-background {
-        margin: 0px;
-        background-color: white;
-        height: 25px;
-        overflow: visible;
-    }
     #about .row .container {
         margin: 60px 0;
     }
+    
+/* UNKNOWN & UNUSED ELEMENTS */
     #portfolio .portfolio-item {
         margin: 0px;
     }
@@ -1291,12 +1391,6 @@ border-top: 22px solid #3fbfE1;
 	.intro-text slides li{
 		font-size: 1.875em;
 	}
-
-
-
-    h2 {
-        font-size: 3.2em;
-    }
 
 
 @media(min-width:1216px) {
