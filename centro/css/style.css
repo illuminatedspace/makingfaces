@@ -326,7 +326,7 @@ header.home{
     color: #03a8ce;
     line-height: 1.2em;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.75em;
     margin: 0 0 10px 0;
 }
 
@@ -334,12 +334,12 @@ header.home{
     color: #90b13d;
     line-height: 1em;
     letter-spacing: .1em;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0 0 10px 0;
 }
 
 .apple-store-button img { 
-    width: 35%;
+    width: 50%;
 }
 
 .intro-screenshot img {
@@ -404,10 +404,12 @@ header .menu-icon i:hover{
 .feature-header {
     margin: 0 0 40px 0;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .feature {
 /*    padding: 4em;*/
+    margin: 0 0 40px 0;
     padding: 0;
     clear: both;
 }
@@ -433,7 +435,7 @@ header .menu-icon i:hover{
     background-size:contain;
     background-clip: padding-box;
     clear: both;
-    font-size: 1.25em;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -443,14 +445,41 @@ header .menu-icon i:hover{
     padding: 0;
 }
 
+.feature-title-left h4, .feature-title-right h4 {
+    font-size: 1.5em;
+}
+
 .feature-title-left, .feature-title-right {
-    font-size: 1em;
+    margin: 0px 0 0 0;
+}
+
+.feature-image {
+    margin: 20px 0;
+}
+
+.feature-description-right, .feature-description-left {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    padding: 0;
+    display: block;
+}
+
+.feature-description-left ul, .feature-description-right ul {
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    width: 60px;
 }
 
 
 /* FAQ ELEMENTS *********************************************************/
 #faq .header-image{
     background-image: url(../img/TemplateImg/orange-faq-header.svg);
+}
+
+#faq .header-image h2 {
+    font-size: 2em;
 }
 
 #faq{
@@ -973,7 +1002,14 @@ border-top: 22px solid #3fbfE1;
     section h2 {
         font-size: 2em;
     }
+
+
+/* FAQ ELEMENTS */
+    #faq .header-image h2 {
+        font-size: 2.5em;
+    }
 }
+
 
 /**********************************************************************/
 @media(min-width:768px) {
