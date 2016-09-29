@@ -110,17 +110,17 @@ hr.star-primary:after {
 }
 
 .header-image h2 {
-    font-size: em;
+    font-size: 1.5em;
     padding: 0 0 0 25px;
+}
+    
+section h2 {
+    font-size: 2em;
 }
 
 section {
     padding: 0px 0 50px 0;
 	background-color: #f2f2f2;
-}
-
-section h2 {
-    font-size: 1em;
 }
 
 section.success {
@@ -403,15 +403,48 @@ header .menu-icon i:hover{
 /* FEATURE ELEMENTS *****************************************************/
 .feature-header {
     margin: 0 0 40px 0;
+    text-align: center;
 }
 
 .feature {
-    padding: 4em;
+/*    padding: 4em;*/
+    padding: 0;
     clear: both;
 }
 
 #features .header-image{
     background-image: url(../img/TemplateImg/blue-features-header-05.svg);
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.how-it-works-header {
+    width: 100%;
+    float: none;
+    margin: 30px auto 0 0;
+    padding: 40px 0 0 0;
+    text-align: center;
+    background-image: url(../img/TemplateImg/cloud-white-top.svg);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:contain;
+    background-clip: padding-box;
+    clear: both;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.feature-title-left, .feature-title-right, .feature-image {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-title-left, .feature-title-right {
+    font-size: 1em;
 }
 
 
@@ -931,11 +964,15 @@ border-top: 22px solid #3fbfE1;
 }
 
 
-@media(min-width:470px) {
+@media(min-width:480px) {
 /* SHARED ELEMENTS */
+    .header-image h2 {
+        font-size: 2.5em;
+    }
+    
     section h2 {
-    font-size: 2.5em;
-}
+        font-size: 2em;
+    }
 }
 
 /**********************************************************************/
@@ -1006,9 +1043,11 @@ border-top: 22px solid #3fbfE1;
     .home .row {
         margin-top: 50px;
     }
+    
     .intro-text {
         float: left;
     }
+    
     .blue-intro {
         color: #03a8ce;
         font-size: 2em;
@@ -1016,6 +1055,7 @@ border-top: 22px solid #3fbfE1;
         clear: both;
         margin-top: 0px;
     }
+    
     .green-intro {
         color: #90b13d;
         padding: 20px 0 5px 0;
@@ -1023,24 +1063,29 @@ border-top: 22px solid #3fbfE1;
         clear: both;
         text-align: left;
     }
+    
     .apple-store-button img{
         height: 6em;
         clear: both;
         float: none;
         margin: auto;
     }
+    
     .apple-store-button{
         float: none;
         padding: 0 0 0 0px;
         margin: auto;
     }
+    
     .intro-screenshot {
         margin-bottom: 0;
     }
+    
     header.home {
         padding: 80px 0 0px 0;
         margin-bottom: 0;
     }
+    
     .header-image {
         width: 100%;
         height: 100%;
@@ -1050,6 +1095,7 @@ border-top: 22px solid #3fbfE1;
         background-origin: padding-box;
         background-position: top;
     }
+    
     .header-image h2 {
         font-size: 3.2em;
     }
@@ -1059,19 +1105,23 @@ border-top: 22px solid #3fbfE1;
     #features {
         margin-top: 0;
     }
+    
     .feature-header{
         font-size: 2em;
         text-align: center;
     }
+    
     .feature-image img{
         max-width: 100%;
     }
+    
     .feature-description-left, .feature-description-right{
         font-family: 'bariol';
         font-size: 2.25em;
         float: none;
         text-align: center;
     }
+    
     .how-it-works-header {
         margin-top: 500px;
         margin: 2em 0 1em 0;
@@ -1088,24 +1138,30 @@ border-top: 22px solid #3fbfE1;
         font-family: bariol, arial, sans-serif;
         font-weight: bold;
     }
+    
     .feature {
         padding: 10px;
     }
+    
     .feature-title-left h4, .feature-title-right h4{
         font-family: 'bariol';
         font-size: 2em;
         font-weight: bold;
         margin-bottom: 1em;
     }
+    
     .feature-description-right, .feature-description-left {
         font-size: 2em;
     }
+    
     .feature-title-left, .feature-title-right, .feature-description-right, .feature-description-left {
         text-align: center;
     }
+    
     .feature-title-left, .feature-description-left{
         
     }
+    
     .feature-title-right, .feature-description-right {
         
     }
