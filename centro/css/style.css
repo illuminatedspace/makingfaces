@@ -102,15 +102,16 @@ hr.star-primary:after {
 .header-image {
     background-repeat: no-repeat;
     width: 100%;
-    background-origin: padding-box;
-    background-position: top;
-    background-size: contain;
-    padding: 0 0 30px 0;
+    background-origin: content-box;
+    background-position: left top;
+    background-size: cover;
+    padding: 0 0 50px 0px;
+    
 }
 
 .header-image h2 {
-    font-size: 1.7em;
-    padding: 0 0 0 20px;
+    font-size: em;
+    padding: 0 0 0 25px;
 }
 
 section {
@@ -119,8 +120,7 @@ section {
 }
 
 section h2 {
-    margin: 0;
-    font-size: 2.5em;
+    font-size: 1em;
 }
 
 section.success {
@@ -280,11 +280,11 @@ header.home .img-responsive {
     font-weight:bold;
 }
 
-.collapse {
+.collapse, .navbar-collapse {
     float: right;
     margin-top: -30px;
     padding-top: 0;
-    background-color: #ee8d52;
+    background-color: #f26726;
 }
 
 
@@ -930,6 +930,13 @@ border-top: 22px solid #3fbfE1;
 	padding-top:50px;
 }
 
+
+@media(min-width:470px) {
+/* SHARED ELEMENTS */
+    section h2 {
+    font-size: 2.5em;
+}
+}
 
 /**********************************************************************/
 @media(min-width:768px) {
