@@ -145,6 +145,16 @@ section.success {
   src: url('../fonts/RobotoSlab-Light.ttf');
 }
 
+@font-face {
+    font-family: 'bariol';
+    src: local(bariol_regular), url('fonts/bariol_regular_webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local(Montserrat-Regular), url('fonts/Montserrat-Regular.otf') format('opentype');
+}
+
 
 /* NAVBAR ELEMENTS ********************************************************/
 .navbar {
