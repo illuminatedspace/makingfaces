@@ -1,7 +1,27 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('../fonts/RobotoSlab-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: 'bariol';
+  src: url('fonts/bariol_regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/bariol_regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/bariol_regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/bariol_regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
 /* SHARED ELEMENTS **********************************************************/
 body {
 overflow-x: hidden;
-font-family: 'Bariol', 'arial', sans-serif;
+font-family: 'bariol', 'arial', sans-serif;
 }
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
@@ -33,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Bariol',"Helvetica Neue", sans-serif;
+    font-family: 'bariol',"Helvetica Neue", sans-serif;
     font-weight: bold;
     line-height: 1.11;  
 }
@@ -140,26 +160,12 @@ section.success {
     margin-top:30px;
 }
 
-@font-face {
-  font-family: 'Roboto Slab';
-  src: url('../fonts/RobotoSlab-Light.ttf');
-}
-
-@font-face {
-    font-family: 'bariol';
-    src: local(bariol_regular), url('fonts/bariol_regular_webfont.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: local(Montserrat-Regular), url('fonts/Montserrat-Regular.otf') format('opentype');
-}
 
 
 /* NAVBAR ELEMENTS ********************************************************/
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 .navbar-fixed-top.navbar-shrink{
@@ -327,7 +333,7 @@ header.home{
 }
 
 .intro-text {
-    font-family: 'Bariol', serif;
+    font-family: 'bariol', serif;
     font-weight: bold;
 
 }
@@ -1258,7 +1264,7 @@ border-top: 22px solid #3fbfE1;
         background-size:contain;
         background-clip: padding-box;
         clear: both;
-        font-family: bariol, arial, sans-serif;
+        font-family: 'bariol', arial, sans-serif;
         font-weight: bold;
     }
     
@@ -1330,7 +1336,7 @@ border-top: 22px solid #3fbfE1;
         margin-bottom: 20px;
     }
     .about-text-right, .about-text-left{
-        font-family: "bariol";
+        font-family: 'bariol';
         font-size: 2em;
         color: #03a8ce;
     }
@@ -1641,7 +1647,7 @@ border-top: 22px solid #3fbfE1;
     }
     
     .about-text-right, .about-text-left{
-        font-family: "bariol";
+        font-family: 'bariol';
         font-size: 2em;
         color: #03a8ce;
     }
@@ -1964,7 +1970,7 @@ div#loading {
 	padding: 5px 10px;
 	display: inline-block;
 	position: relative;
-    font-family: bariol;
+    font-family: 'bariol';
     font-weight: bold;
 }
 .main_heading h2 {
