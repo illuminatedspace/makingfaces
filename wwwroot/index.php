@@ -36,14 +36,14 @@
     
     <!-- PHP FOR CONTACT FORM -->
     <?php
-	if (isset($_POST["submit"])) {
+	if (isset($_GET["submit"])) {
         echo "submit is set";
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$message = $_POST['message'];
+		$name = $_GET['name'];
+		$email = $_GET['email'];
+		$message = $_GET['message'];
 //		$human = intval($_POST['human']);
-		$from = 'MakingFaces Contact Form'; 
-		$to = 'admin@interactable.co'; 
+		$from = 'lizkristinaphillips@gmail.com'; 
+		$to = 'liz@interactable.co'; 
 		$subject = 'Message from Contact Demo ';
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
@@ -51,17 +51,17 @@
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
  
 		// Check if name has been entered
-		if (!$_POST['name']) {
+		if (!$_GET['name']) {
 			$errName = 'Please enter your name';
 		}
 		
 		// Check if email has been entered and is valid
-		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+		if (!$_GET['email'] || !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL)) {
 			$errEmail = 'Please enter a valid email address';
 		}
 		
 		//Check if message has been entered
-		if (!$_POST['message']) {
+		if (!$_GET['message']) {
 			$errMessage = 'Please enter your message';
 		}
 //		//Check if simple anti-bot test is correct
