@@ -330,7 +330,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
 			<div class="gap-50"></div>
             <div class="row">
                 <div class="col-md-7 animateright">
-                    <form role="form" action="index.php#contact">
+                    <form role="form" method="post" action="#contact">
                         <div class="row">
                             <div class="form-group input-group col-xs-12 floating-label-form-group">
 								<span class="input-group-addon"> <i class="fa fa-user fa-lg"></i> </span>
