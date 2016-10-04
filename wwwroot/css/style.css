@@ -160,7 +160,10 @@ section.success {
     margin-top:30px;
 }
 
-
+.wrapper-div {
+    position: relative;
+    top: 75px;
+}
 
 /* NAVBAR ELEMENTS ********************************************************/
 .navbar {
@@ -194,7 +197,7 @@ section.success {
     background-size: cover;
     overflow-x: hidden;
     height: 100px;
-    width: 150px;
+    width: 85px;
     padding: 0;
     margin: 0 0 1px 0;
     float: right;
@@ -405,7 +408,7 @@ header .menu-icon i:hover{
     }
 
 .home_wrap .row {
-    margin: 100px 0 0 0;
+    margin: 75px 0 0 0;
 }
 
 .home #container {
@@ -1171,6 +1174,10 @@ border-top: 22px solid #3fbfE1;
 /* HOME ELEMENTS *******************************************************/
     .home .row {
         margin-top: 50px;
+    }
+    
+    .home_wrap .row {
+        margin: 15px 0 0 0;
     }
     
     .intro-text {

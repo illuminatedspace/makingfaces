@@ -122,116 +122,118 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             </div>
         <!-- /.container-fluid -->
         </nav>
-    
-    <header class="home">
-		<div  id="output" class="home_wrap">
-		 <div id="container">
-			<div class="container">
-				<div class="row">
-                        <div class="col-md-5">
-                            <div class="intro-text">
-                                <div class = 'blue-intro'>
-                                Practice showing <br> and reading emotions, <br> and have fun doing it!
+        <header class="home">
+            <div  id="output" class="home_wrap">
+             <div id="container">
+                <div class="container">
+                    <div class="row">
+                            <div class="col-md-5">
+                                <div class="intro-text">
+                                    <div class = 'blue-intro'>
+                                    Practice showing <br> and reading emotions, <br> and have fun doing it!
+                                    </div>
+                                    <div class = 'green-intro'>
+                                    Available now <br> for the Apple iPad.
+                                    </div>
+                                    <div class = 'apple-store-button'><a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8"><img src="img/TemplateImg/apple-store.png" alt="Available in the Apple Store Button"> </a></div>	
                                 </div>
-                                <div class = 'green-intro'>
-                                Available now <br> for the Apple iPad.
+                            </div>
+                            <div class="col-md-7">
+                                <div class="intro-screenshot">
+                                    <img src="img/TemplateImg/01-game.png">
                                 </div>
-                                <div class = 'apple-store-button'><a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8"><img src="img/TemplateImg/apple-store.png" alt="Available in the Apple Store Button"> </a></div>	
                             </div>
                         </div>
-                        <div class="col-md-7">
-                            <div class="intro-screenshot">
-                                <img src="img/TemplateImg/01-game.png">
-                            </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-    </header>
-	
-	<section class="success" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="header-image">
-                    <h2 class="main_heading">MakingFaces Features</h2>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="feature-header">
-                        MakingFaces is designed to help those with autism spectrum disorders who have difficulty identifying emotions in others and themselves.
-                </div>
-                <div class="feature-header-image">
-                    <div class="col-md-8">
-                        <div class="feature-image">
-                            <img src="img/TemplateImg/02-game.png">
-                        </div>
+            </div>
+        </header>
+    
+    <section class="success" id="features">
+        <div class="wrapper-div">    
+            <div class="container">
+                <div class="row">
+                    <div class="header-image">
+                        <h2 class="main_heading">MakingFaces Features</h2>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="how-it-works-header">
-                        How It Works
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="feature-header">
+                            MakingFaces is designed to help those with autism spectrum disorders who have difficulty identifying emotions in others and themselves.
                     </div>
-                </div>
-                <div class="feature">
-                    <div class="col-md-4">
-                        <div class="feature-title-left">
-                            <h4>Choose Your Character</h4>
-                        </div>
-                    </div>	
-                    <div class="col-md-8">
-                        <div class="feature-image">
-                            <img src="img/TemplateImg/03-characters.png">
+                    <div class="feature-header-image">
+                        <div class="col-md-8">
+                            <div class="feature-image">
+                                <img src="img/TemplateImg/02-game.png">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="feature">
-                    <div class="col-md-8">
-                        <div class="feature-image">
-                            <img src="img/TemplateImg/04-hints.png">
+                    <div class="col-lg-12">
+                        <div class="how-it-works-header">
+                            How It Works
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="feature-title-right"><h4>Choose Your Level</h4></div>
-                        <div class="feature-description-right">
-                            EASY level has written hints.<br><br> HARD level has NO written hints.
+                    <div class="feature">
+                        <div class="col-md-4">
+                            <div class="feature-title-left">
+                                <h4>Choose Your Character</h4>
+                            </div>
+                        </div>	
+                        <div class="col-md-8">
+                            <div class="feature-image">
+                                <img src="img/TemplateImg/03-characters.png">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="feature">
-                    <div class="col-md-4">
-                        <div class="feature-title-left">
-                            <h4>Make the Face</h4>
+                    <div class="feature">
+                        <div class="col-md-8">
+                            <div class="feature-image">
+                                <img src="img/TemplateImg/04-hints.png">
+                            </div>
                         </div>
-                        <div class="feature-description-left">
-                            An emotion is randomly picked for your chosen character. Match the nose/mouth and the eyes.<br><br>Emotions:<br><ul><li>Angry</li><li>Sad</li><li>Suprised</li><li>Happy</li><li>Bored</li><li>Nervous</li></ul>
-                        </div>
-                    </div>	
-                    <div class="col-md-8">
-                        <div class="feature-image">
-                            <img src="img/TemplateImg/05-incorrect-face.png">
-                            <img src="img/TemplateImg/06-correct-face.png">
+                        <div class="col-md-4">
+                            <div class="feature-title-right"><h4>Choose Your Level</h4></div>
+                            <div class="feature-description-right">
+                                EASY level has written hints.<br><br> HARD level has NO written hints.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="feature">
-                    <div class="col-md-8">
-                        <div class="feature-image">
-                            <img src="img/TemplateImg/07-selfie.png">
+                    <div class="feature">
+                        <div class="col-md-4">
+                            <div class="feature-title-left">
+                                <h4>Make the Face</h4>
+                            </div>
+                            <div class="feature-description-left">
+                                An emotion is randomly picked for your chosen character. Match the nose/mouth and the eyes.<br><br>Emotions:<br><ul><li>Angry</li><li>Sad</li><li>Suprised</li><li>Happy</li><li>Bored</li><li>Nervous</li></ul>
+                            </div>
+                        </div>	
+                        <div class="col-md-8">
+                            <div class="feature-image">
+                                <img src="img/TemplateImg/05-incorrect-face.png">
+                                <img src="img/TemplateImg/06-correct-face.png">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="feature-title-right"><h4>Selfie Time!</h4></div>
-                        <div class="feature-description-right">
-                            Match your face to the emotion you see!
+                    <div class="feature">
+                        <div class="col-md-8">
+                            <div class="feature-image">
+                                <img src="img/TemplateImg/07-selfie.png">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature-title-right"><h4>Selfie Time!</h4></div>
+                            <div class="feature-description-right">
+                                Match your face to the emotion you see!
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+        
     <section class="success" id="faq">
         <div class="container">
             <div class="row">
