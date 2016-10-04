@@ -410,6 +410,7 @@ header .menu-icon i:hover{
 .home #container {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
+    margin-top: 20px;
 }
 
 
@@ -626,7 +627,8 @@ footer .col-md-1 {
     width: 100px;
 }
 footer .col-md-2 {
-    width: 100px;
+    width: 120px;
+    margin: auto;
 }
 .footer-links {
     margin-bottom: 20px;
@@ -639,7 +641,7 @@ footer .col-md-1, footer .col-md-2 {
 }
 .footer-content {
     background-color: #1dc0e5;
-    height: inherit;
+    height: auto;
     width: auto;
     margin: auto;
     padding: 0;
@@ -666,7 +668,7 @@ footer .footer-below {
 }
 
 .footer-section {
-    width: auto;
+    width: 200px;
     height: auto;
     float: none;
     clear: both;
@@ -1377,7 +1379,20 @@ border-top: 22px solid #3fbfE1;
 
     
 /* FOOTER ELEMENT ****************************************************************/
+    .footer-content {
+        background-color: #1dc0e5;
+        height: 200px;
+        width: 600px;
+        margin: auto;
+        padding: 0;
+        display: block;
+        justify-content: center;
+        float: none;
+    }
     
+    .footer-section {
+        float: left;
+    }
 
 /* UNKNOWN & UNUSED ELEMENTS ***************************************************/
 	.left-services .service-item .fa-stack{
