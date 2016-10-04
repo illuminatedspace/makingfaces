@@ -366,15 +366,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                         </div>
                         <div class="form-group">
 		                  <div class="col-sm-10 col-sm-offset-2">
-                              This is a message above result.
-                              <?php if($result==null or !$result) {
-                                    echo "Error with Result";
-                                }
-                              if($result) {
-                              echo $errEmail;
-                              echo $errName;
-                              echo $errMessage;}
-                              echo $result; ?>
+                              <?php echo $result; ?>
 			                 <!-- Will be used to display an alert to the user -->
 		                  </div>
 	                   </div>
