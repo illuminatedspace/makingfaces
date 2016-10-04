@@ -284,13 +284,12 @@
 			<div class="gap-50"></div>
             <div class="row">
                 <div class="col-md-7 animateright">
-<!--                    <form role="form">-->
-<!--
+                    <form role="form" action="index.php">
                         <div class="row">
                             <div class="form-group input-group col-xs-12 floating-label-form-group">
 								<span class="input-group-addon"> <i class="fa fa-user fa-lg"></i> </span>
   
-								<label for="name">Name</label>
+								<label for="name" class="control-label">Name</label>
 								
 								<input class="form-control" type="text" name="name" id="name" placeholder="Name">
                             </div>
@@ -298,27 +297,24 @@
                         <div class="row">
                             <div class="form-group input-group col-xs-12 floating-label-form-group">
                                 <span class="input-group-addon"> <i class="fa fa-envelope-o fa-lg"></i> </span>
-								<label for="email">Email Address</label>
-                                <input class="form-control" type="email" name="email" id="email" placeholder="Email Address">
+								<label for="email" class="control-label">Email Address</label>
+                                <input class="form-control" type="email" name="email" id="email" placeholder="example@email.com">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group input-group col-xs-12 floating-label-form-group message-addon">
                                 <span class="input-group-addon"> <i class="fa fa-pencil-square-o fa-lg"></i> </span>
-								<label for="message">Message</label>
+								<label for="message" class="control-label">Message</label>
                                 <textarea placeholder="Message" class="form-control" name="message" id="message" rows="5"></textarea>
                             </div>
                         </div>
--->
-<!--
                         <br>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-default btn-lg">Send</button>
+                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-default btn-lg">
                             </div>
                         </div>
                     </form>
--->
                 </div>
 				<div class="col-md-5 animateleft">
 					<div class="inline-icons-text">

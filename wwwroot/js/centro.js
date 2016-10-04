@@ -137,7 +137,7 @@ $( document ).ready(function() {
 	}
 		
 
-		google.maps.event.addDomListener(window, 'load', initialize);
+//		google.maps.event.addDomListener(window, 'load', initialize);
 	
 	 
 	/*Javascript for portfolio*/
@@ -246,8 +246,8 @@ $( document ).ready(function() {
 //	$(".home").css("max-width","100%");
 	
 	
-	
-});
+//	
+//});
 
  $( window ).load(function() {
 	jQuery('#portfolio #filters .filter.active').click();
