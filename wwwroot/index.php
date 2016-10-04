@@ -37,14 +37,13 @@
     <!-- PHP FOR CONTACT FORM -->
     <?php
 	if (isset($_GET["submit"])) {
-        echo "submit is set";
 		$name = $_GET['name'];
 		$email = $_GET['email'];
 		$message = $_GET['message'];
 //		$human = intval($_POST['human']);
-		$from = 'lizkristinaphillips@gmail.com'; 
-		$to = 'liz@interactable.co'; 
-		$subject = 'Message from Contact Demo ';
+		$from = 'admin@interactable.co'; 
+		$to = 'admin@interactable.co'; 
+		$subject = 'Message from MakingFaces Contact Form ';
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
         $headers .= "From: " . $from;
@@ -72,7 +71,7 @@
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
 	if (mail ($to, $subject, $body, $headers)) {
-		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+		$result='<div class="alert alert-success">Thank You! We will be in touch soon.</div>';
 	} else {
 		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
 	}
