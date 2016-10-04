@@ -33,6 +33,53 @@
 </head>
 
 <body id="page-top" class="index" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+    <!-- PHP FOR CONTACT FORM -->
+    <?php
+	if (isset($_GET["submit"])) {
+        echo "submit is set";
+		$name = $_GET['name'];
+		$email = $_GET['email'];
+		$message = $_GET['message'];
+//		$human = intval($_POST['human']);
+		$from = 'lizkristinaphillips@gmail.com'; 
+		$to = 'liz@interactable.co'; 
+		$subject = 'Message from Contact Demo ';
+		$headers  = 'MIME-Version: 1.0' . "\r\n";
+        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $headers .= "From: " . $from;
+		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+ 
+		// Check if name has been entered
+		if (!$_GET['name']) {
+			$errName = 'Please enter your name';
+		}
+		
+		// Check if email has been entered and is valid
+		if (!$_GET['email'] || !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL)) {
+			$errEmail = 'Please enter a valid email address';
+		}
+		
+		//Check if message has been entered
+		if (!$_GET['message']) {
+			$errMessage = 'Please enter your message';
+		}
+//		//Check if simple anti-bot test is correct
+//		if ($human !== 5) {
+//			$errHuman = 'Your anti-spam is incorrect';
+//		}
+ 
+// If there are no errors, send the email
+if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
+	if (mail ($to, $subject, $body, $headers)) {
+		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+	} else {
+		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
+	}
+}
+	}
+?>
+    
 <div id="loading"></div>
 <div id="content" data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
     <!-- Navigation -->
@@ -284,7 +331,7 @@
 			<div class="gap-50"></div>
             <div class="row">
                 <div class="col-md-7 animateright">
-                    <form role="form" action="index.php">
+                    <form role="form" action="index.php#contact">
                         <div class="row">
                             <div class="form-group input-group col-xs-12 floating-label-form-group">
 								<span class="input-group-addon"> <i class="fa fa-user fa-lg"></i> </span>
@@ -292,6 +339,7 @@
 								<label for="name" class="control-label">Name</label>
 								
 								<input class="form-control" type="text" name="name" id="name" placeholder="Name">
+                                <?php echo "<p class='text-danger'>$errName</p>";?>
                             </div>
                         </div>
                         <div class="row">
@@ -299,6 +347,7 @@
                                 <span class="input-group-addon"> <i class="fa fa-envelope-o fa-lg"></i> </span>
 								<label for="email" class="control-label">Email Address</label>
                                 <input class="form-control" type="email" name="email" id="email" placeholder="example@email.com">
+                                <?php echo "<p class='text-danger'>$errEmail</p>";?>
                             </div>
                         </div>
                         <div class="row">
@@ -306,6 +355,7 @@
                                 <span class="input-group-addon"> <i class="fa fa-pencil-square-o fa-lg"></i> </span>
 								<label for="message" class="control-label">Message</label>
                                 <textarea placeholder="Message" class="form-control" name="message" id="message" rows="5"></textarea>
+                                <?php echo "<p class='text-danger'>$errMessage</p>";?>
                             </div>
                         </div>
                         <br>
@@ -314,6 +364,20 @@
                                 <input id="submit" name="submit" type="submit" value="Send" class="btn btn-default btn-lg">
                             </div>
                         </div>
+                        <div class="form-group">
+		                  <div class="col-sm-10 col-sm-offset-2">
+                              This is a message above result.
+                              <?php if($result==null or !$result) {
+                                    echo "Error with Result";
+                                }
+                              if($result) {
+                              echo $errEmail;
+                              echo $errName;
+                              echo $errMessage;}
+                              echo $result; ?>
+			                 <!-- Will be used to display an alert to the user -->
+		                  </div>
+	                   </div>
                     </form>
                 </div>
 				<div class="col-md-5 animateleft">
@@ -323,7 +387,7 @@
 							</div>
 						</div>
 						<div class="inline-icon">
-							<div class="marker">Support@MakingFaces.com</div>
+							<div class="marker">admin@interactable.co</div>
 						</div>
 					</div>
                 </div>
