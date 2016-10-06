@@ -150,8 +150,9 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             </div>
         </header>
     
-    <section class="success" id="features">
-        <div class="wrapper-div">    
+    <!-- EMPTY ANCHOR ELEMENT TO COMPENSATE FOR HEADER IN ANCHOR SCROLL -->
+    <a class="anchor" id="features"></a>
+    <section class="success" id="features">    
             <div class="container">
                 <div class="row">
                     <div class="header-image">
@@ -233,7 +234,8 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             </div>
         </div>
     </section>
-        
+    
+    <a class="anchor" id="faq"></a>
     <section class="success" id="faq">
         <div class="container">
             <div class="row">
@@ -268,6 +270,8 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             </div>
         </div>
 	</section>
+    
+    <a class="anchor" id="about"></a>
 	<section class="success" id="about">
     <div class="container">
         <div class="row">
@@ -322,6 +326,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
         </div>
 	</section> 
         
+    <a class="anchor" id="contact"></a>
     <section id="contact" class="contact">
         <div class="container">
             <div class="row">
