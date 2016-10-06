@@ -94,8 +94,8 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#page-top">
-                        <div class = top-icon><img src="img/TemplateImg/MakingFacesIcon.png" alt="MakingFaces icon"></div>
-                        <div class = top-logo><img src="img/TemplateImg/logo.png" alt="MakingFaces logo"></div></a>
+                        <div class = top-icon><img src="img/TemplateImg/MakingFacesIcon.svg" alt="MakingFaces icon"></div>
+                        <div class = top-logo><img src="img/TemplateImg/makingfaceslogo.png" alt="MakingFaces logo.png"></div></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -281,7 +281,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             <div class="container">
                 <div class="about-image-left-1">
                     <div class="col-md-6">
-                        <img src="img/TemplateImg/logo.png">
+                        <img src="img/TemplateImg/Logo.svg">
                     </div>
                 </div>
                 <div class="about-text-right">
@@ -293,7 +293,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             <div class="container">
                 <div class="about-image-left">    
                     <div class="col-md-6">
-                        <img src="img/TemplateImg/MakingFacesIcon.png">
+                        <img src="img/TemplateImg/MakingFacesIcon.svg">
                     </div>
                 </div>
                 <div class="about-text-right">
