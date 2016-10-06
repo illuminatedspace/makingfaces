@@ -291,7 +291,12 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                 </div>
             </div>
             <div class="container">
-                <div class="about-text-left">
+                <div class="about-image-left">    
+                    <div class="col-md-6">
+                        <img src="img/TemplateImg/MakingFacesIcon.png">
+                    </div>
+                </div>
+                <div class="about-text-right">
                     <div class="col-md-6">
                         MakingFaces is available for the Apple iPad.
                         <a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8">
@@ -299,11 +304,6 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                                 <img src="img/TemplateImg/apple-store.png">
                             </div>
                         </a>
-                    </div>
-                </div>
-                <div class="about-image-right">    
-                    <div class="col-md-6">
-                        <img src="img/TemplateImg/MakingFacesIcon.png">
                     </div>
                 </div>
             </div>

@@ -1080,9 +1080,7 @@ border-top: 22px solid #3fbfE1;
     
 /* NAVBAR ELEMENTS */
     .collapse, .navbar-collapse {
-        margin-top: 0;
         float: right;
-        background-color: transparent;
     }
     
     
@@ -1109,7 +1107,14 @@ border-top: 22px solid #3fbfE1;
         padding: 0;
 
     }
+    
+    .apple-store-button-about img {
+        width: auto;
+        margin: auto;
+        float: none;
+    }
 }
+
 
 
 /**********************************************************************/
@@ -1173,6 +1178,11 @@ border-top: 22px solid #3fbfE1;
         min-width: 520px;
         background-position: bottom;
         background-size: cover;
+    }
+    
+    .collapse, .navbar-collapse {
+        margin-top: 0;
+        background-color: transparent;
     }
 
     
