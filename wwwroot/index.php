@@ -105,16 +105,16 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                             <a href="#page-top"> Home</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#features"> Features</a>
+                            <a href="#features_"> Features</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#faq"> F.A.Q.</a>
+                            <a href="#faq_"> F.A.Q.</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#about"> About</a>
+                            <a href="#about_"> About</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#contact"> Contact</a>
+                            <a href="#contact_"> Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -151,7 +151,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
         </header>
     
     <!-- EMPTY ANCHOR ELEMENT TO COMPENSATE FOR HEADER IN ANCHOR SCROLL -->
-    <a class="anchor" id="features"></a>
+    <a class="anchor" id="features_"></a>
     <section class="success" id="features">    
             <div class="container">
                 <div class="row">
@@ -235,7 +235,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
         </div>
     </section>
     
-    <a class="anchor" id="faq"></a>
+    <a class="anchor" id="faq_"></a>
     <section class="success" id="faq">
         <div class="container">
             <div class="row">
@@ -271,7 +271,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
         </div>
 	</section>
     
-    <a class="anchor" id="about"></a>
+    <a class="anchor" id="about_"></a>
 	<section class="success" id="about">
     <div class="container">
         <div class="row">
@@ -326,7 +326,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
         </div>
 	</section> 
         
-    <a class="anchor" id="contact"></a>
+    <a class="anchor" id="contact_"></a>
     <section id="contact" class="contact">
         <div class="container">
             <div class="row">
