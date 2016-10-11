@@ -345,6 +345,10 @@ header.home{
 
 }
 
+.intro-screenshot img {
+    width: 100%;
+}
+
 .blue-intro {
     color: #03a8ce;
     line-height: 1.2em;
@@ -1199,6 +1203,17 @@ border-top: 22px solid #3fbfE1;
         float: left;
     }
     
+    .home_wrap .col-md-7 {
+        width: 60%;
+        margin: auto;
+        padding: 0;
+        float: right;
+    }
+    
+    .intro-screenshot {
+        
+    }
+    
     .blue-intro {
         color: #03a8ce;
         font-size: 2em;
@@ -1482,7 +1497,7 @@ border-top: 22px solid #3fbfE1;
     }
     
     
-/* HOME ELEMENTS *******************************************************************/
+/* HOME ELEMENTS ****************************************************************/
     .home .row {
         width: 980px;
     }
@@ -1528,6 +1543,7 @@ border-top: 22px solid #3fbfE1;
     }
     
     .apple-store-button img{
+        width: auto;
         height: 6em;
         float: none;
         margin: auto;
@@ -1565,6 +1581,13 @@ border-top: 22px solid #3fbfE1;
     
     .intro-screenshot img {
         width: 100%;
+    }
+    
+    .home_wrap .col-md-7 {
+        width: 50%;
+        margin: auto;
+        padding: 0 50px 0 0;
+        float: right;
     }
     
     
