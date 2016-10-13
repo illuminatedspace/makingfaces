@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <title>MakingFaces - an InteractAble product</title>
+    <link rel='shortcut icon' href='img/favicon_png.ico' type='image/x-icon'/ >
     <script type="text/javascript">
         function preloader(){
             document.getElementById("loading").style.display = "none";
@@ -16,6 +17,7 @@
         }//preloader
         window.onload = preloader;
 	</script>
+    
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/animate.css" rel="stylesheet" type="text/css">
