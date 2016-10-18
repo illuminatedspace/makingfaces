@@ -137,7 +137,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                                     <div class = 'green-intro'>
                                     Available now <br> for the Apple iPad.
                                     </div>
-                                    <div class = 'apple-store-button'><a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8"><img src="img/TemplateImg/apple-store.png" alt="Available in the Apple Store Button"> </a></div>	
+                                    <div class = 'apple-store-button'><a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8"><img src="img/TemplateImg/appStore.svg" alt="Available on the Apple Store Button"> </a></div>	
                                 </div>
                             </div>
                             <div class="col-md-7">
@@ -303,7 +303,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                         MakingFaces is available for the Apple iPad.
                         <a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8">
                             <div class="apple-store-button-about">
-                                <img src="img/TemplateImg/apple-store.png">
+                                <img src="img/TemplateImg/appStore.svg">
                             </div>
                         </a>
                     </div>

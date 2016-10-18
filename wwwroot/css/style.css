@@ -553,7 +553,7 @@ header .menu-icon i:hover{
 }
 
 .apple-store-button-about img {
-    width: 50%;
+    width: 100%;
     float: right;
 }
 
@@ -1123,7 +1123,7 @@ border-top: 22px solid #3fbfE1;
     }
     
     .apple-store-button-about img {
-        width: auto;
+        width: 80%;
         margin: auto;
         float: none;
     }
