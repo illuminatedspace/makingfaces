@@ -560,6 +560,18 @@ header .menu-icon i:hover{
     width: 25%;
 }
 
+#about .autism-speaks {
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about .gold-star {
+    background-image: url(../img/TemplateImg/gold-star-01.svg);
+    width: 100px;
+}
+
 
 /* CONTACT ELEMENTS *********************************************************/
 #contact .header-image {

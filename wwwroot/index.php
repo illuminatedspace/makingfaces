@@ -326,6 +326,12 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                             </div>
                         </a>
                     </div>
+                    <div class="row">
+                        <div class="accolades">
+                            <div class="gold-star"></div>
+                            <div class="autism-speaks"><a href="https://www.autismspeaks.org/autism-apps/makingfaces-interactable">Listed in <i>Autism Speaks</i> "Autism Apps."</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <a href="http://uchoosegame.com/">
