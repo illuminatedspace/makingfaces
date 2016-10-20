@@ -458,6 +458,11 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                 </div>
             </div>  
         </div>
+        <div class="row">
+            <div class="developer">
+                Designed by <a href="http://www.lizkristinaphillips.com">Liz Phillips</a>
+            </div>
+        </div>
     </footer>
 </div>
     

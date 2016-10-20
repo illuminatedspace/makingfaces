@@ -699,6 +699,25 @@ footer .footer-below {
     display: block;
 }
 
+.developer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #03a8ce; 
+    width: 75%;
+    font-weight: lighter;
+}
+
+.developer a {
+    font-weight: 300;
+    color: #fff;
+}
+
+.developer a:hover {
+    font-weight: 1000;
+    text-decoration-line: underline;
+    color: #f26726;
+}
 
 /* UNKNOWN & UNUSED ELEMENTS */
 #portfolio .portfolio-item {
