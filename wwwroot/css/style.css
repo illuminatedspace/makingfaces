@@ -272,8 +272,7 @@ a.anchor {
 }
 
 .navbar-fixed-top {
-    padding-bottom:;
-    margin-bottom: ;
+
 }
 
 .navbar-fixed-top.navbar-shrink {
@@ -377,7 +376,7 @@ header.home{
 
 header .name {
     text-transform: none;
-    'Titillium Web',"Helvetica Neue", sans-serif;
+    font-family: 'Titillium Web',"Helvetica Neue", sans-serif;
     font-weight: 300;
     font-size:1.348em;
     line-height:1.249em;
@@ -714,7 +713,7 @@ footer .footer-below {
 }
 
 .developer a:hover {
-    font-weight: 1000;
+    font-weight: 700;
     text-decoration-line: underline;
     color: #f26726;
 }
@@ -1589,7 +1588,7 @@ border-top: 22px solid #3fbfE1;
         padding: 0;
     }
     
-    .home, .home_wrap, {
+    .home, .home_wrap {
         padding-bottom: 0 !important;
         margin-bottom: 0 !important;
     }
@@ -1952,7 +1951,7 @@ border-top: 22px solid #3fbfE1;
 }
 
 .primary_color{
-	color:fff;
+	color: #fff;
 	background-color:#000;
 }
 

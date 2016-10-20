@@ -1658,8 +1658,7 @@ input[type="search"] {
 }
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 4px 0 0;
-  margin-top: 1px \9;
+  margin: 1px 4px 0 0;
   /* IE8-9 */
   line-height: normal;
 }
@@ -2017,7 +2016,6 @@ select[multiple].input-lg {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
 }
 .btn:focus,
 .btn:active:focus,
