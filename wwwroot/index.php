@@ -3,12 +3,17 @@
 
 <head>
 
+    <!-- This website was created by Liz Phillips, www.lizkristinaphillips.com -->
+    <!-- from the Centro template -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Learn more about the dynamic mobile game MakingFaces, an interactive tool designed for children with Autism Spectrum Disorders">
+    <meta name="author" content="Interactable Inc.">
+    <!-- Disables a site specific search bar in Google -->
+    <meta name="google" content="nositelinkssearchbox" />
+    <meta name="google-site-verification" content="O94ZchAiZIp0lWtZwme1KV6WwrGSz8hIPTGb2mD1ZYE" />
 
-    <title>MakingFaces - an InteractAble product</title>
+    <title>MakingFaces, an InteractAble mobile game</title>
     <link rel='shortcut icon' href='img/favicon_png.ico' type='image/x-icon'/ >
     <script type="text/javascript">
         function preloader(){
@@ -17,6 +22,17 @@
         }//preloader
         window.onload = preloader;
 	</script>
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-85989296-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
     
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
