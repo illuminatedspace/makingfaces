@@ -322,7 +322,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                         MakingFaces is available for the Apple iPad.
                         <a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8">
                             <div class="apple-store-button-about">
-                                <img src="img/TemplateImg/appStore.svg">
+                                <img src="img/TemplateImg/appStore.svg" alt="a button to navigate to MakingFaces in the app store" title="MakingFaces app store button">
                             </div>
                         </a>
                     </div>
@@ -358,7 +358,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
 			<div class="gap-50"></div>
             <div class="row">
                 <div class="col-md-7 animateright">
-                    <form role="form" method="post" action="#contact">
+                    <form method="post" action="#contact">
                         <div class="row">
                             <div class="form-group input-group col-xs-12 floating-label-form-group">
 								<span class="input-group-addon"> <i class="fa fa-user fa-lg"></i> </span>
@@ -467,7 +467,6 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             </div>
         </div>
     </footer>
-</div>
     
 	<script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
