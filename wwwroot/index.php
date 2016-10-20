@@ -14,7 +14,7 @@
     <meta name="google-site-verification" content="O94ZchAiZIp0lWtZwme1KV6WwrGSz8hIPTGb2mD1ZYE" />
 
     <title>MakingFaces, an InteractAble mobile game</title>
-    <link rel='shortcut icon' href='img/favicon_png.ico' type='image/x-icon'/ >
+    <link rel='shortcut icon' href='img/favicon_png.ico' type='image/x-icon'/>
     <script type="text/javascript">
         function preloader(){
             document.getElementById("loading").style.display = "none";
@@ -137,7 +137,9 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
+            
             </div>
+            
         <!-- /.container-fluid -->
         </nav>
         <header class="home">
@@ -153,20 +155,21 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                                     <div class = 'green-intro'>
                                     Available now <br> for the Apple iPad.
                                     </div>
-                                    <div class = 'apple-store-button'><a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8"><img src="img/TemplateImg/appStore.svg" alt="Available on the Apple Store Button"> </a></div>	
+                                    <div class = 'apple-store-button'><a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8"><img src="img/TemplateImg/appStore.svg" alt="a button to navigate to MakingFaces in the app store" title="MakingFaces app store button"> </a></div>	
                                 </div>
                             </div>
                             <div class="col-md-7">
                                 <div class="intro-screenshot">
-                                    <img src="img/TemplateImg/01-game.png">
+                                    <img src="img/TemplateImg/01-game.png" alt="a screenshot of the opening title screen for MakingFaces, where players can choose 'Easy' or 'Hard'" title="MakingFaces opening title screenshot">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-        </header>
+    </header>
+</div>
+        
     
     <!-- EMPTY ANCHOR ELEMENT TO COMPENSATE FOR HEADER IN ANCHOR SCROLL -->
     <a class="anchor" id="features_"></a>
@@ -185,7 +188,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                     <div class="feature-header-image">
                         <div class="col-md-8">
                             <div class="feature-image">
-                                <img src="img/TemplateImg/02-game.png">
+                                <img src="img/TemplateImg/02-game.png" alt="a screenshot of a completed face with hints" title="MakingFaces gameplay screenshot">
                             </div>
                         </div>
                     </div>
@@ -202,14 +205,14 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                         </div>	
                         <div class="col-md-8">
                             <div class="feature-image">
-                                <img src="img/TemplateImg/03-characters.png">
+                                <img src="img/TemplateImg/03-characters.png" alt="a screenshot of the cast of 8 characters players can build the faces of: Matthew, Kenny, Emma, Carlos, Jason, Maria, Billy, and Monique" title="MakingFaces characters screenshot">
                             </div>
                         </div>
                     </div>
                     <div class="feature">
                         <div class="col-md-8">
                             <div class="feature-image">
-                                <img src="img/TemplateImg/04-hints.png">
+                                <img src="img/TemplateImg/04-hints.png" alt="a screenshot of the game screen with hints displayed for the 'Sad' face: Hint! downward eyes, big frown'" title="MakingFaces in-game hints screenshot">
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -230,15 +233,15 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                         </div>	
                         <div class="col-md-8">
                             <div class="feature-image">
-                                <img src="img/TemplateImg/05-incorrect-face.png">
-                                <img src="img/TemplateImg/06-correct-face.png">
+                                <img src="img/TemplateImg/05-incorrect-face.png" alt="a screenshot of the 'nervous face' with an incorrect element, there is a correcting hint, labling the eyes as 'happy'" title="MakingFaces incorrect face screenshot">
+                                <img src="img/TemplateImg/06-correct-face.png" alt="a screenshot of 'a completed 'suprised' face with hints" title="MakingFaces correct face screenshot">
                             </div>
                         </div>
                     </div>
                     <div class="feature">
                         <div class="col-md-8">
                             <div class="feature-image">
-                                <img src="img/TemplateImg/07-selfie.png">
+                                <img src="img/TemplateImg/07-selfie.png" alt="a screenshot of 'Selfie Time', a child taking a picture mimicing the 'suprised' face they just completed" title="MakingFaces Selfie Time screenshot">
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -299,7 +302,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             <div class="container">
                 <div class="about-image-left-1">
                     <div class="col-md-6">
-                        <img src="img/TemplateImg/Logo.svg">
+                        <img src="img/TemplateImg/Logo.svg" alt="the typeface logo for MakingFaces" title="MakingFaces logo">
                     </div>
                 </div>
                 <div class="about-text-right">
@@ -311,7 +314,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
             <div class="container">
                 <div class="about-image-left">    
                     <div class="col-md-6">
-                        <img src="img/TemplateImg/MakingFacesIcon.svg">
+                        <img src="img/TemplateImg/MakingFacesIcon.svg" alt="app icon for MakingFaces" title="MakingFaces icon">
                     </div>
                 </div>
                 <div class="about-text-right">
@@ -330,7 +333,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                     <div class="about-image-left">
                         <div class="col-md-6">
 
-                            <img src="img/TemplateImg/uChooseIcon.png">
+                            <img src="img/TemplateImg/uChooseIcon.png" alt="the icon for the other Interactable Inc mobile game 'uChoose'" title="uChoose icon">
                         </div>
                     </div>
                     <div class="about-text-right">
