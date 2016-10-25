@@ -326,11 +326,11 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                             </div>
                         </a>
                     </div>
-                    <div class="row">
-                        <div class="accolades">
-                            <div class="gold-star"></div>
-                            <div class="autism-speaks"><a href="https://www.autismspeaks.org/autism-apps/makingfaces-interactable">Listed in <i>Autism Speaks</i> "Autism Apps."</a></div>
-                        </div>
+                </div>
+                <div class="accolades">
+                    <div class="col-md-9">
+                        <div class="gold-star"></div>
+                        <div class="autism-speaks"><a href="https://www.autismspeaks.org/autism-apps/makingfaces-interactable">Listed in <i>Autism Speaks</i> "Autism Apps."</a></div>
                     </div>
                 </div>
             </div>
@@ -338,7 +338,6 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                 <div class="container">
                     <div class="about-image-left">
                         <div class="col-md-6">
-
                             <img src="img/TemplateImg/uChooseIcon.png" alt="the icon for the other Interactable Inc mobile game 'uChoose'" title="uChoose icon">
                         </div>
                     </div>
