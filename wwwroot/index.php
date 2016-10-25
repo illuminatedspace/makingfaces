@@ -320,7 +320,7 @@ if (!$errName && !$errEmail && !$errMessage /*&& !$errHuman*/) {
                 <div class="about-text-right">
                     <div class="col-md-6">
                         MakingFaces is available for the Apple iPad.
-                        <a href="https://itunes.apple.com/us/app/makingfaces-by-interactable/id1100850122?mt=8">
+                        <a href="https://itunes.apple.com/us/app/makingfaces-by-    interactable/id1100850122?mt=8">
                             <div class="apple-store-button-about">
                                 <img src="img/TemplateImg/appStore.svg" alt="a button to navigate to MakingFaces in the app store" title="MakingFaces app store button">
                             </div>
